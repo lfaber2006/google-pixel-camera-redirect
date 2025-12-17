@@ -1,4 +1,4 @@
-package com.google.android.apps.photos
+package com.google.android.apps.photos.pager
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.google.android.apps.photos.ui.theme.GooglePhotosRedirectTheme
 
-class MainActivity : ComponentActivity() {
+class HostPhotoPagerActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()

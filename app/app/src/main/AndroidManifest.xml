@@ -12,14 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GooglePhotosRedirect">
         <activity
-            android:name=".MainActivity"
+            android:name=".pager.HostPhotoPagerActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.GooglePhotosRedirect">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.provider.action.REVIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:scheme="content" />
+                <data android:mimeType="image/*" />
+                <data android:mimeType="video/*" />
             </intent-filter>
         </activity>
     </application>
