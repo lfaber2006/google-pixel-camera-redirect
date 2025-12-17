@@ -1,0 +1,767 @@
+--------- beginning of main
+12-15 21:12:34.244   978  1777 I native  : I0000 00:00:1765854754.243997    1777 tripod_detector.cc:73] Leave tripod mode.
+--------- beginning of system
+12-15 21:12:34.794   978 31891 I Lyric   : retiming_node.cc:1692: Rear(hal id: 2), Over the past 2.024395265s there were 20 responses sent and 20 of them had no error. FPS: 9.87949 Non-error FPS: 9.87949
+12-15 21:12:34.848   978  1777 I native  : I0000 00:00:1765854754.848026    1777 tripod_detector.cc:71] Enter tripod mode.
+12-15 21:12:34.848   978  1777 I native  : I0000 00:00:1765854754.848359    1777 tripod_detector.cc:73] Leave tripod mode.
+12-15 21:12:34.944  1732  1753 I pixel-thermal: usb_pwr_therm:30.726 raw data: usb_pwr_therm:30726 
+12-15 21:12:35.253   978  1777 I native  : I0000 00:00:1765854755.253274    1777 tripod_detector.cc:71] Enter tripod mode.
+12-15 21:12:35.424   978 26433 W Lyric   : shutter_notification_manager.cc:270: 2 calls in 6 sec(s): vsync timeout for frame 234
+12-15 21:12:35.458  1277  1277 D AOC     : A3:MSG: lsm6dsv_device.cc, 732: USF: Lsm6dsvDevice: Sensor 3: Enabled 0, odr_index 0, period_ns 0.
+12-15 21:12:35.459  1277  1277 D AOC     : A3:MSG: vsc_controller.cc, 602: VSC: [Double Twist] stopSensorEvents: sensor 0x20002
+12-15 21:12:35.459  1277  1277 D AOC     : A3:MSG: lsm6dsv_fifo.cc, 755: USF: Lsm6dsvFifo: ODR: XL/G/T/TS: 240/240/15/30 WM: 2 Intr: 240.
+12-15 21:12:35.459  1277  1277 D AOC     : A3:MSG: vsc_controller.cc, 584: VSC: [Double Twist] requestSensorEvents: sensor 0x10001, period=20 latency=0ms.
+12-15 21:12:35.460  1277  1277 D AOC     : A3:MSG: lsm6dsv_device.cc, 252: USF: Lsm6dsvDevice: Config sampling too slow. Took 1374064ns.
+12-15 21:12:35.461  1277  1277 D AOC     : A3:MSG: lsm6dsv_device.cc, 641: USF: Lsm6dsvDevice: Fifo was disabled for 1374064ns.
+12-15 21:12:35.465  1277  1277 D AOC     : A3:MSG: usf_sensor.cc, 1792: USF: Received stop sampling request for LSM6DSV Motion Detect (active:-1).
+12-15 21:12:35.465  1277  1277 D AOC     : A3:MSG: usf_sensor.cc, 2354: USF: Sampling configuration 96203 not found.
+12-15 21:12:35.465  1277  1277 D AOC     : A3:MSG: usf_sensor_client.cc, 173: USF: Received kErrNotFound when disabling one shot sensor.
+12-15 21:12:35.465  1277  1277 D AOC     : A3:MSG: usf_sensor.cc, 1784: USF: Received start sampling request for LSM6DSV Stationary Detect (active:1).
+12-15 21:12:35.465  1277  1277 D AOC     : A3:MSG: lsm6dsv_device.cc, 732: USF: Lsm6dsvDevice: Sensor 4: Enabled 1, odr_index 1, period_ns 500000000.
+12-15 21:12:35.465  1277  1277 D AOC     : A3:MSG: lsm6dsv_fifo.cc, 755: USF: Lsm6dsvFifo: ODR: XL/G/T/TS: 240/240/15/30 WM: 2 Intr: 240.
+12-15 21:12:35.466  1277  1277 D AOC     : A3:MSG: lsm6dsv_device.cc, 641: USF: Lsm6dsvDevice: Fifo was disabled for 689616ns.
+12-15 21:12:35.467  1277  1277 D AOC     : A3:MSG: motion_state_sensor.cc, 328: USF: MoSt: StationaryDetect sampling started with sampling ID 96205.
+12-15 21:12:35.471  1277  1277 D AOC     : A3:MSG: usf_sensor.cc, 1784: USF: Received start sampling request for LSM6DSV Accelerometer (active:7).
+12-15 21:12:35.472  1277  1277 D AOC     : A3:MSG: usf_sensor.cc, 1784: USF: Received start sampling request for LSM6DSV FreeFall Detect (active:1).
+12-15 21:12:35.472  1277  1277 D AOC     : A3:MSG: vsc_controller.cc, 602: VSC: [Step Counter] stopSensorEvents: sensor 0x20002
+12-15 21:12:35.473  1277  1277 D AOC     : A3:MSG: vsc_controller.cc, 584: VSC: [Step Counter] requestSensorEvents: sensor 0x10001, period=20 latency=1000ms.
+12-15 21:12:35.474  1277  1277 D AOC     : A3:MSG: lsm6dsv_device.cc, 732: USF: Lsm6dsvDevice: Sensor 5: Enabled 1, odr_index 2, period_ns 500000000.
+12-15 21:12:35.475  1277  1277 D AOC     : A3:MSG: lsm6dsv_fifo.cc, 755: USF: Lsm6dsvFifo: ODR: XL/G/T/TS: 240/240/15/30 WM: 2 Intr: 240.
+12-15 21:12:35.476  1277  1277 D AOC     : A3:MSG: lsm6dsv_device.cc, 641: USF: Lsm6dsvDevice: Fifo was disabled for 586548ns.
+12-15 21:12:35.484  1277  1277 D AOC     : A3:MSG: usf_sensor.cc, 1784: USF: Received start sampling request for LSM6DSV Stationary Detect (active:2).
+12-15 21:12:35.487   979  1003 I CHRE    : @ 724031.900: Received a sampling status update for one shot sensor LSM6DSV FreeFall Detect
+12-15 21:12:35.487   979  1003 I CHRE    : @ 724031.902: Received a sampling status update for one shot sensor LSM6DSV Stationary Detect
+12-15 21:12:35.489  2176  2183 I deeptouch: I0000 00:00:1765854755.489629    2183 tf_lite_classifier.cc:413] Event stream classified as kNone
+12-15 21:12:35.539  1040  1608 D DeviceHalAidl: [default] createAudioPatch: sources: 1 sinks 1
+12-15 21:12:35.540  1040  1608 D Hal2AidlMapper: [default] createOrUpdatePatch: patch ID: 204, [disregard IDs] sources: [AudioPortConfig{id: 1, portId: 0, sampleRate: Int{value: 48000}, channelMask: AudioChannelLayout{layoutMask: 3}, format: AudioFormatDescription{type: PCM, pcm: FLOAT_32_BIT, encoding: }, gain: (null), flags: AudioIoFlags{output: 6}, ext: AudioPortExt{mix: AudioPortMixExt{handle: 13, usecase: AudioPortMixExtUseCase{stream: SYS_RESERVED_DEFAULT}, maxOpenStreamCount: 0, maxActiveStreamCount: 0, recommendedMuteDurationMs: 0}}}], sinks: [AudioPortConfig{id: 3, portId: 0, sampleRate: (null), channelMask: (null), format: (null), gain: (null), flags: (null), ext: AudioPortExt{device: AudioPortDeviceExt{device: AudioDevice{type: AudioDeviceDescription{type: OUT_SPEAKER, connection: }, address: AudioDeviceAddress{id: }}, flags: 0, encodedFormats: [], encapsulationModes: 0, encapsulationMetadataTypes: 0, speakerLayout: (null)}}}]
+12-15 21:12:35.540  1040  1608 D Hal2AidlMapper: [default] findOrCreatePortConfig: device port config does not have audio or gain config specified
+12-15 21:12:35.541   975  3787 I AHal::PortRouteManager: UpdateOrAddPatch: update patch 204, AudioPatch{id: 204, source: [400001/1: primary-playback], sink: [100001/100001: speaker], min frames: 480, latencies: [50]}
+12-15 21:12:35.541   975  3787 I AHal::Router: InvalidateLocked: nothing change between graph #2061 and #2062
+12-15 21:12:35.541   975  1596 I ASvc::StreamOut: getRecommendedLatencyModes: modes = [FREE]
+12-15 21:12:35.542   975  1596 I StHal::SoundTriggerHal: ProcessStreamMetadata: active usage tracks: 0
+12-15 21:12:35.542   975  1596 D BTAudioSessionAidl: UpdateSourceMetadata - SessionType=LE_AUDIO_HARDWARE_OFFLOAD_ENCODING_DATAPATH has NO session
+12-15 21:12:35.542   975  1596 D BTAudioSessionAidl: GetSupportedLatencyModes - SessionType=LE_AUDIO_HARDWARE_OFFLOAD_ENCODING_DATAPATH has NO session
+12-15 21:12:35.542   975  1596 D BTAudioSessionAidl: SetLatencyMode - SessionType=LE_AUDIO_HARDWARE_OFFLOAD_ENCODING_DATAPATH has NO session
+12-15 21:12:35.542   975  1596 D BTAudioSessionAidl: GetSupportedLatencyModes - SessionType=A2DP_HARDWARE_OFFLOAD_ENCODING_DATAPATH has NO session
+12-15 21:12:35.542   975  1596 D BTAudioSessionAidl: SetLatencyMode - SessionType=A2DP_HARDWARE_OFFLOAD_ENCODING_DATAPATH has NO session
+12-15 21:12:35.546  1460  5485 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 956
+12-15 21:12:35.547   975  1596 D AHal::UseCase: SetActiveTracks: update primary-playback active tracks(1)
+12-15 21:12:35.547   975  1596 I StHal::SoundTriggerHal: ProcessStreamMetadata: active usage tracks: 0
+12-15 21:12:35.547   975  1596 D BTAudioSessionAidl: UpdateSourceMetadata - SessionType=LE_AUDIO_HARDWARE_OFFLOAD_ENCODING_DATAPATH has NO session
+12-15 21:12:35.547   975  1596 D BTAudioSessionAidl: GetSupportedLatencyModes - SessionType=LE_AUDIO_HARDWARE_OFFLOAD_ENCODING_DATAPATH has NO session
+12-15 21:12:35.547   975  1596 D BTAudioSessionAidl: SetLatencyMode - SessionType=LE_AUDIO_HARDWARE_OFFLOAD_ENCODING_DATAPATH has NO session
+12-15 21:12:35.547   975  1596 D BTAudioSessionAidl: GetSupportedLatencyModes - SessionType=A2DP_HARDWARE_OFFLOAD_ENCODING_DATAPATH has NO session
+12-15 21:12:35.547   975  1596 D BTAudioSessionAidl: SetLatencyMode - SessionType=A2DP_HARDWARE_OFFLOAD_ENCODING_DATAPATH has NO session
+12-15 21:12:35.548   975  1605 I ASvc::CommandWorker: cw-primary-playback: Command{start: Void{}} in StreamOutStandbyState
+12-15 21:12:35.550   975  1605 I ASvc::CommandWorker: cw-primary-playback: Command{burst: 0} in StreamOutIdleState
+12-15 21:12:35.550   975  1605 I ASvc::CommandWorker: StartStreamAndActivateRoute: try to start primary-playback, counter 5
+12-15 21:12:35.550   975  1605 I AHal::Router: Activate: activate 400001 without a scoped lock
+12-15 21:12:35.550   975  1605 I AHal::Router: InvalidateLocked: new graph #2063 Edges(1):
+12-15 21:12:35.550   975  1605 I AHal::Router:   [direction: 0, use case: primary-playback, id: 0, use case extras: [aec: false, ns: false], use case attributes: [active track: true][sample_rate: 48000][channel layout: AudioChannelLayout{layoutMask: 3}][format: AudioFormatDescription{type: PCM, pcm: FLOAT_32_BIT, encoding: }], device: speaker, sibling device: , handle: 0x600d802b8508200, device extras: [source: SYS_RESERVED_INVALID, voice call: false, st aec: false, hac: false, sr: 48000, ch: AudioChannelLayout{layoutMask: 3}, f: AudioFormatDescription{type: PCM, pcm: FLOAT_32_BIT, encoding: }, hifi: 0], config id: [u: 400001, d:100001], priority: 0000]
+12-15 21:12:35.550   975  1605 I AHal::Router: InvalidateLocked: ============ apply graph #2063 [Mon Dec 15 21:12:35 2025] start ============
+12-15 21:12:35.550   975  1605 I AHal::Router: LogTransferring: Transferring (1):
+12-15 21:12:35.550   975  1605 I AHal::Router: LogTransferring:   (null) => primary-playback-0 -> speaker
+12-15 21:12:35.550   975  1605 I AHal::Router: Configure: config device primary-playback-0 -> speaker
+12-15 21:12:35.550   975  1605 I AHal::Router: UpdateDeviceInterfaceSettings: commit device-speaker
+12-15 21:12:35.551   975  1605 I AHal::PlaybackThermalThrottleByTemperature: Update Temperature: kIdle to kOnce
+12-15 21:12:35.551   975  1605 I AHal::VoiceCall: Update: set echo reference on speaker for primary-playback
+12-15 21:12:35.551   975  1605 I AHal::Speaker: Enable: speaker
+12-15 21:12:35.551   975  1605 D audio_route: Apply path: hostless-ulC spk-vi
+12-15 21:12:35.551   975  1581 I AHal::BatteryAdaptiveAudio: ProcessPlaybackTunerControl: update playback tuner with Disabled
+12-15 21:12:35.551   975  1605 I AHal::AudioRoutePathController: ApplyPath: hostless-ulC spk-vi: true
+12-15 21:12:35.551   975  1605 D AHal::TinyalsaDriverOperations: OpenAndPrepareLocked: open pcmC0D15c with [channel: 2, rate: 48000, period_size: 480, period_count: 2, format: 0, start_threshold: 0, stop_threshold: 24000, silence_threshold: 0, silence_size: 0, avail_min: 0]
+12-15 21:12:35.552   978  1784 I native  : I0000 00:00:1765854755.551902    1784 tripod_detector.cc:71] Enter tripod mode.
+12-15 21:12:35.552   978  1784 I native  : I0000 00:00:1765854755.552703    1784 tripod_detector.cc:73] Leave tripod mode.
+12-15 21:12:35.556  1732  1732 I pixel-thermal: VIRTUAL-USB-UI:0 raw data: USB-MINUS-CHARGER:-9149 VIRTUAL-USB-UI:0 charging_therm:39875 usb_pwr_therm:30726 
+12-15 21:12:35.556  1732  1732 I pixel-thermal: VIRTUAL-USB-THROTTLING:0 raw data: USB-MINUS-CHARGER:-9149 VIRTUAL-USB-THROTTLING:0 usb_pwr_therm:30726 
+12-15 21:12:35.557  1732  1732 I pixel-thermal: VIRTUAL-SKIN-CHARGE-WLC:34.2938 raw data: VIRTUAL-SKIN-CHARGE-WLC:34293.8 charging_therm:39875 soc_therm:39029 usb_pwr_therm:30726 
+12-15 21:12:35.557  1732  1732 I pixel-thermal: quiet_therm:36.402 raw data: quiet_therm:36402 
+12-15 21:12:35.558  1732  1732 I pixel-thermal: VIRTUAL-SKIN-CHARGE:34.3143 raw data: VIRTUAL-SKIN-CHARGE:34314.3 VIRTUAL-SKIN-CHARGE-SUB-0:33455.6 VIRTUAL-SKIN-CHARGE-SUB-1:34314.3 btmspkr_therm:30748 charging_therm:39875 disp_therm:30103 north_therm:36781 quiet_therm:36402 rfpa_therm:36914 soc_therm:39029 usb_pwr_therm:30726 
+12-15 21:12:35.558  1732  1732 I pixel-thermal: usb_pwr_therm:30.726 raw data: usb_pwr_therm:30726 
+12-15 21:12:35.558  1732  1732 I pixel-thermal: cellular-emergency:34.3791 raw data: cellular-emergency:34379.1 
+12-15 21:12:35.558  1732  1732 I pixel-thermal: VIRTUAL-SKIN-SPEAKER:33.5776 raw data: VIRTUAL-SKIN-SPEAKER:33577.6 VIRTUAL-SKIN-SPEAKER-MODEL:33577.6 
+12-15 21:12:35.558  1732  1732 I pixel-thermal: btmspkr_therm:30.748 raw data: btmspkr_therm:30748 
+12-15 21:12:35.559  1732  1732 I pixel-thermal: CPU_THROTTLE_SEVERE:0 raw data: CPU_THROTTLE_SEVERE:0 
+12-15 21:12:35.559  1732  1732 I pixel-thermal: VIRTUAL-SKIN:34.3558 raw data: VIRTUAL-SKIN:34355.8 VIRTUAL-SKIN-LEGACY:34326.1 VIRTUAL-SKIN-LEGACY-MODEL-DIFF:5.33984 VIRTUAL-SKIN-LEGACY-SHUTDOWN:0 VIRTUAL-SKIN-MODEL:34320.8 VIRTUAL-SKIN-MODEL-CLAMPED:34320.8 VIRTUAL-SKIN-MODEL-LEGACY-DIFF:-5.33984 VIRTUAL-SKIN-MODEL-UPDATED:34355.8 VIRTUAL-SKIN-MODEL-UPPER-CLAMPED:34320.8 VIRTUAL-SKIN-SUB-0:33862.2 VIRTUAL-SKIN-SUB-1:32927.8 VIRTUAL-SKIN-SUB-2:34292.8 VIRTUAL-SKIN-SUB-3:34326.1 VIRTUAL-SKIN-SUB-4:32648 VT_LEGACY_WEIGHT:0 VT_MODEL_WEIGHT:1 battery:32500 btmspkr_therm:30748 charging_therm:39875 disp_therm:30103 north_therm:36781 quiet_therm:36402 rfpa_therm:36914 soc_therm:39029 usb_pwr_therm:30726 
+12-15 21:12:35.559  1732  1732 I pixel-thermal: CPU_THROTTLE_SEVERE:0 raw data: CPU_THROTTLE_SEVERE:0 
+12-15 21:12:35.559  1732  1732 I pixel-thermal: VIRTUAL-SKIN-DISPLAY:34.3791 raw data: VIRTUAL-SKIN-DISPLAY:34379.1 
+12-15 21:12:35.559  1732  1732 I pixel-thermal: soc:26 raw data: soc:26 
+12-15 21:12:35.560  1732  1732 I pixel-thermal: rfpa_therm:36.914 raw data: rfpa_therm:36914 
+12-15 21:12:35.560  1732  1732 I pixel-thermal: battery:32.5 raw data: battery:32500 
+12-15 21:12:35.560  1732  1732 I pixel-thermal: BCL_AUDIO_BAACL:0 raw data: BCL_AUDIO_BAACL:0 battery:32500 soc:26 
+12-15 21:12:35.561  1732  1732 I pixel-thermal: north_therm:36.781 raw data: north_therm:36781 
+12-15 21:12:35.561  1732  1732 I pixel-thermal: charging_therm:39.875 raw data: charging_therm:39875 
+12-15 21:12:35.561  1732  1732 I pixel-thermal: disp_therm:30.103 raw data: disp_therm:30103 
+12-15 21:12:35.561  1732  1732 I pixel-thermal: soc_therm:39.029 raw data: soc_therm:39029 
+12-15 21:12:35.561   975  1558 I AHal::Waves::CustomAction: operator(): update link law source: 1 value: 33.5776, 33.5776
+12-15 21:12:35.568   975  1605 I AHal::AdaptedRouteControl: Update: update route from null to adapted-speaker
+12-15 21:12:35.568   975  1605 D audio_route: Apply path: adapted-speaker
+12-15 21:12:35.568   975  1605 I AHal::AudioRoutePathController: ApplyPath: adapted-speaker: true
+12-15 21:12:35.568   975  1605 I AHal::Tas25xxCodec: SetDriverOpMode: mode is 3
+12-15 21:12:35.569   975  1605 D AHal::Tas25xxCodec: SetDriverOpMode: success
+12-15 21:12:35.569   975  1605 I AHal::Tas25xxCodec: TurnOnSpeakerProtection
+12-15 21:12:35.569   975  1605 I AHal::Tas25xxCodec: SetLibraryMode: mode is 2
+12-15 21:12:35.570  1277  1277 D AOC     : F1:MSG: controller.cc, 275: AudioOutCtrl: cmd ID: 0x00d2, tag: 0x8a [cntr = 9698]
+12-15 21:12:35.570  1277  1277 D AOC     : F1:Prot: paramID = 20010f0e, index = 3854, size = 4, ch = 2
+12-15 21:12:35.570   975  1605 D audio_route: Apply path: speaker
+12-15 21:12:35.570  1277  1277 D AOC     : F1:Prot: op mode value: 3
+12-15 21:12:35.570  1277  1277 D AOC     : F1:MSG: controller.cc, 919: AudioOutCtrl: ipc: audio_output_tu, cmd ID: 0x00d2, tag: 0x85, rc: 0
+12-15 21:12:35.570   975  1605 I AHal::AudioRoutePathController: ApplyPath: speaker: true
+12-15 21:12:35.570   975  1605 D audio_route: Apply path: primary-playback-0 -> speaker
+12-15 21:12:35.570  1277  1277 D AOC     : F1:MSG: controller.cc, 275: AudioOutCtrl: cmd ID: 0x00d1, tag: 0x8b [cntr = 9699]
+12-15 21:12:35.571  1277  1277 D AOC     : F1:Prot: set library_mode_: 2, algo_enabled_: 1
+12-15 21:12:35.571   975  1605 I AHal::AudioRoutePathController: ApplyPath: primary-playback-0 -> speaker: true
+12-15 21:12:35.571   975  1605 I AHal::DeviceInterface: Connect: connect primary-playback-0 -> speaker
+12-15 21:12:35.571   975  1605 I AHal::Waves: UpdateActiveDevices: adding speaker
+12-15 21:12:35.571   975  1605 I AHal::Waves: UpdateTuning: Wake up Waves DSP for speaker
+12-15 21:12:35.571  1277  1277 D AOC     : F1:MSG: controller.cc, 919: AudioOutCtrl: ipc: audio_output_tu, cmd ID: 0x00d1, tag: 0x86, rc: 0
+12-15 21:12:35.571   975  1605 I AHal::Waves::CustomAction: GetData: Custom Data: {2,0,1,0,}
+12-15 21:12:35.571  1277  1277 D AOC     : F1:MSG: controller.cc, 275: AudioOutCtrl: cmd ID: 0x010f, tag: 0x59 [cntr = 9700]
+12-15 21:12:35.571   975  1605 I AHal::Waves: UpdateTuning: successfully set link law data 1 33.5776 33.5776
+12-15 21:12:35.572  1277  1277 D AOC     : F1:Source 1 [Primary] mastered by sink 0 [Speaker]
+12-15 21:12:35.572  1277  1277 D AOC     : F1:AT Map:2 (LL:0), 1 EPs active, Power: Yes, Config: No
+12-15 21:12:35.572  1277  1277 D AOC     : F1:Mixer 0 configuration changed: (2)
+12-15 21:12:35.572  1277  1277 D AOC     : F1:Sink 0 Configuration changed: ULL (enabled)
+12-15 21:12:35.572  1277  1277 D AOC     : F1:AHWSinkSPKR started: 48 samples (32-bit,2 ch,48 kHz) block 384 ts_en 0
+12-15 21:12:35.573  1277  1277 D AOC     : F1:[SPKR] protection library mips: 160
+12-15 21:12:35.573  1277  1277 D AOC     : F1:[AHWSinkSPKR] DL resync B: 2636, A:2636. wo: 3212, target offset: 576 (align 140) -> ro:576
+12-15 21:12:35.573  1277  1277 D AOC     : F1:Speaker TDM Started with Clk: 6144 KHz, FS: 48 KHz, Slots: 4 (4 ch used) DMA:1+2
+12-15 21:12:35.573  1277  1277 D AOC     : F1:[Idle Tracker] long no idle:[0] average between idle:[0.174920ms] max no idle:[23.950482ms]
+12-15 21:12:35.574  1277  1277 D AOC     : F1:MSG: controller.cc, 919: AudioOutCtrl: ipc: audio_output_co, cmd ID: 0x010f, tag: 0x59, rc: 0
+12-15 21:12:35.574  1277  1277 D AOC     : F1:MSG: mix_creator.cc, 179: [AHWSinkSPKR] HF overrun. RP(0x80202200) not 3840 bytes behind WP(0x80202f80)
+12-15 21:12:35.574  1277  1277 D AOC     : H0:Mixer AMixSPKR: 480 samples (0002/0002) (ON SC) multi out OFF
+12-15 21:12:35.574  1277  1277 D AOC     : H0:	 1: 0x406319c8
+12-15 21:12:35.574  1277  1277 D AOC     : H0:AMixSPKR PostProcessing Config: WAVES
+12-15 21:12:35.575  1277  1277 D AOC     : H0:Mixer configuration updated
+12-15 21:12:35.575  1277  1277 D AOC     : H0:[Idle Tracker] long no idle:[28] average between idle:[3.086241ms] max no idle:[235.672563ms]
+12-15 21:12:35.575  1277  1277 D AOC     : H0:Mixer state changed
+12-15 21:12:35.576  1277  1277 D AOC     : F1:MSG: controller.cc, 275: AudioOutCtrl: cmd ID: 0x00d5, tag: 0x8c [cntr = 9701]
+12-15 21:12:35.577   975  1605 I AHal::AocPlaybackTuningAdapter: WriteReadTuningBuffer: updated tuning with size 12724
+12-15 21:12:35.578  1277  1277 D AOC     : H0:MSG: controller.cc, 919: AudOutCtrlH0: ipc: C-AO-H0, cmd ID: 0x00d5, tag: 0x1c, rc: 0
+12-15 21:12:35.578  1277  1277 D AOC     : F1:MSG: controller.cc, 919: AudioOutCtrl: ipc: audio_output_tu, cmd ID: 0x00d5, tag: 0x1c, rc: 0
+12-15 21:12:35.578   975  1605 D AHal::Waves: UpdateTuning: update Device: speaker, InstanceId: 1, IsInitialize: false, NeedToUpdate: true, Parameters{is_bypass:false, MaxVolume: 0.0362078, ScreenOrientation: 0}, is_any_active_track_on_sink: true
+12-15 21:12:35.578   975  1605 I AHal::Router: InvalidateLocked: ============ apply graph #2063 end ============
+12-15 21:12:35.578   975  1605 I ASvc::PeriodicWorker: SetLinkedConfigIds: update linked configs [100001]
+12-15 21:12:35.578   975  1605 D BTAudioSessionAidl: UpdateSourceMetadata - SessionType=LE_AUDIO_HARDWARE_OFFLOAD_ENCODING_DATAPATH has NO session
+12-15 21:12:35.578   975  1605 D BTAudioSessionAidl: UpdateSinkMetadata - SessionType=LE_AUDIO_HARDWARE_OFFLOAD_DECODING_DATAPATH has NO session
+12-15 21:12:35.578   975  1605 I AHal::Stream: Start: start stream primary-playback
+12-15 21:12:35.578   975  1605 D AHal::TinyalsaDriverOperations: OpenAndPrepareLocked: open pcmC0D1p with [channel: 2, rate: 48000, period_size: 480, period_count: 4, format: 9, start_threshold: 0, stop_threshold: 18446744073709551615, silence_threshold: 0, silence_size: 0, avail_min: 0]
+12-15 21:12:35.609  1277  1277 D AOC     : F1:MSG: controller.cc, 275: AudioOutCtrl: cmd ID: 0x00ce, tag: 0x5a [cntr = 9702]
+12-15 21:12:35.610  1277  1277 D AOC     : F1:MSG: controller_audio_output.cc, 1971: audio_playback1 set default threshold 11520
+12-15 21:12:35.610  1277  1277 D AOC     : F1:RAW Endpoint Data Format: 32-bit floating point (XTensa Optimized)
+12-15 21:12:35.610  1277  1277 D AOC     : F1:MSG: controller.cc, 919: AudioOutCtrl: ipc: audio_output_co, cmd ID: 0x0132, tag: 0x10, rc: 0
+12-15 21:12:35.610  1277  1277 D AOC     : F1:MSG: controller.cc, 275: AudioOutCtrl: cmd ID: 0x012a, tag: 0x5b [cntr = 9703]
+12-15 21:12:35.611  1277  1277 D AOC     : F1:MSG: controller_audio_output.cc, 2110: audio_playback1 set threshold 11520 of 15360
+12-15 21:12:35.611  1277  1277 D AOC     : F1:MSG: controller.cc, 919: AudioOutCtrl: ipc: audio_output_co, cmd ID: 0x012a, tag: 0x5b, rc: 0
+12-15 21:12:35.611  1277  1277 D AOC     : F1:MSG: controller.cc, 275: AudioOutCtrl: cmd ID: 0x00c9, tag: 0x5c [cntr = 9704]
+12-15 21:12:35.612  1277  1277 D AOC     : F1:MSG: controller.cc, 919: AudioOutCtrl: ipc: audio_output_co, cmd ID: 0x00c9, tag: 0x5c, rc: 0
+12-15 21:12:35.613  1277  1277 E AOC     : F1:ERR: audio_entrypoint.cc, 143: Primary, ZeroEP 480 frames, count: 1
+12-15 21:12:35.754  5326 23009 D MediaProvider: In user_select mode, recent selection only is not required.
+12-15 21:12:35.762  5326 23009 D MediaProvider: In user_select mode, recent selection only is not required.
+12-15 21:12:35.768  5326 23009 D MediaProvider: In user_select mode, recent selection only is not required.
+12-15 21:12:35.772  5326 23009 D MediaProvider: In user_select mode, recent selection only is not required.
+12-15 21:12:35.776  1460  2147 D BackgroundInstallControlService: Package event received: 0
+12-15 21:12:35.778   975  1596 D AHal::UseCase: SetActiveTracks: update primary-playback active tracks(0)
+12-15 21:12:35.778   975  1596 I AHal::Waves::CustomAction: GetData: Custom Data: {2,0,1,0,}
+12-15 21:12:35.778   975  1596 D AHal::ThirdPartyEffectAmcs: UpdateAMCSData: update volume index[0] duration 206 ms.
+12-15 21:12:35.778   975  1596 I AHal::Waves: UpdateTuning: update amcs instance id = Speaker, active_ms_in_vol_range = {206,0,0,0,0,0,0,0,0,0}
+12-15 21:12:35.779  5326 23009 D MediaProvider: In user_select mode, recent selection only is not required.
+12-15 21:12:35.781   975  1596 D AHal::Waves: UpdateTuning: update Device: speaker, InstanceId: 1, IsInitialize: true, NeedToUpdate: true, Parameters{is_bypass:false, MaxVolume: 0.0362078, ScreenOrientation: 0}, is_any_active_track_on_sink: false
+12-15 21:12:35.781   975  1596 I StHal::SoundTriggerHal: ProcessStreamMetadata: active usage tracks: 0
+12-15 21:12:35.781   975  1596 D BTAudioSessionAidl: UpdateSourceMetadata - SessionType=LE_AUDIO_HARDWARE_OFFLOAD_ENCODING_DATAPATH has NO session
+12-15 21:12:35.781   975  1596 D BTAudioSessionAidl: GetSupportedLatencyModes - SessionType=LE_AUDIO_HARDWARE_OFFLOAD_ENCODING_DATAPATH has NO session
+12-15 21:12:35.781   975  1596 D BTAudioSessionAidl: SetLatencyMode - SessionType=LE_AUDIO_HARDWARE_OFFLOAD_ENCODING_DATAPATH has NO session
+12-15 21:12:35.781   975  1596 D BTAudioSessionAidl: GetSupportedLatencyModes - SessionType=A2DP_HARDWARE_OFFLOAD_ENCODING_DATAPATH has NO session
+12-15 21:12:35.781   975  1596 D BTAudioSessionAidl: SetLatencyMode - SessionType=A2DP_HARDWARE_OFFLOAD_ENCODING_DATAPATH has NO session
+12-15 21:12:35.787  5326  5562 D MediaProvider: In user_select mode, recent selection only is not required.
+12-15 21:12:35.789  1460  2835 V WindowManager: DesktopModeLaunchParamsModifier: phase= 0 task=null activity=null display-area-from-source=DefaultTaskDisplayArea@130300324 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@130300324 task null, skipping
+12-15 21:12:35.789  1460  2835 V WindowManager: TaskLaunchParamsModifier:phase=0 task=null activity=null display-area-from-source=DefaultTaskDisplayArea@130300324 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@130300324
+12-15 21:12:35.791  1460  2835 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@bff7008c does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+12-15 21:12:35.791  1460  2835 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+12-15 21:12:35.792  1460  2835 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+12-15 21:12:35.793  1460  2835 V WindowManager: DesktopModeLaunchParamsModifier: phase= 0 task=null activity=ActivityRecord{188461031 u10 com.google.android.apps.photos/.pager.HostPhotoPagerActivity display-area-from-source=DefaultTaskDisplayArea@130300324 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@130300324 task null, skipping
+12-15 21:12:35.793  1460  2835 V WindowManager: TaskLaunchParamsModifier:phase=0 task=null activity=ActivityRecord{188461031 u10 com.google.android.apps.photos/.pager.HostPhotoPagerActivity t-1} display-area-from-source=DefaultTaskDisplayArea@130300324 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@130300324
+12-15 21:12:35.794  1460  2835 V WindowManager: DesktopModeLaunchParamsModifier: phase= 3 task=Task{e16f64f #1000012 type=standard I=com.google.android.GoogleCamera/com.android.camera.CameraLauncher nonResizable} activity=ActivityRecord{188461031 u10 com.google.android.apps.photos/.pager.HostPhotoPagerActivity t-1} display-area-from-source=DefaultTaskDisplayArea@130300324 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@130300324 not entering desktop mode, skipping
+12-15 21:12:35.794  1460  2835 V WindowManager: TaskLaunchParamsModifier:phase=3 task=Task{e16f64f #1000012 type=standard I=com.google.android.GoogleCamera/com.android.camera.CameraLauncher nonResizable} activity=ActivityRecord{188461031 u10 com.google.android.apps.photos/.pager.HostPhotoPagerActivity t-1} display-area-from-source=DefaultTaskDisplayArea@130300324 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@130300324 inherit-from-source=fullscreen non-freeform-task-display-area display-area=DefaultTaskDisplayArea@130300324 default-portrait freeform-size-mismatch=Rect(276, 716 - 804, 1796)
+12-15 21:12:35.796  1460  2835 V WindowManager: DesktopModeLaunchParamsModifier: phase= 3 task=Task{e16f64f #1000012 type=standard I=com.google.android.GoogleCamera/com.android.camera.CameraLauncher nonResizable} activity=ActivityRecord{188461031 u10 com.google.android.apps.photos/.pager.HostPhotoPagerActivity t-1} display-area-from-source=DefaultTaskDisplayArea@130300324 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@130300324 not entering desktop mode, skipping
+12-15 21:12:35.796  1460  2835 V WindowManager: TaskLaunchParamsModifier:phase=3 task=Task{e16f64f #1000012 type=standard I=com.google.android.GoogleCamera/com.android.camera.CameraLauncher nonResizable} activity=ActivityRecord{188461031 u10 com.google.android.apps.photos/.pager.HostPhotoPagerActivity t-1} display-area-from-source=DefaultTaskDisplayArea@130300324 display-id=0 task-display-area-windowing-mode=1 suggested-display-area=DefaultTaskDisplayArea@130300324 inherit-from-source=fullscreen non-freeform-task-display-area display-area=DefaultTaskDisplayArea@130300324 default-portrait freeform-size-mismatch=Rect(276, 716 - 804, 1796)
+12-15 21:12:35.797  1460  2835 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+12-15 21:12:35.801   642  2873 I libbinder.BpBinder: onLastStrongRef automatically unlinking death recipients: 
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: Unable to check Uri permission because caller is holding WM lock; assuming permission denied
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: java.lang.IllegalStateException: Unable to check Uri permission because caller is holding WM lock; assuming permission denied
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at com.android.server.am.ContentProviderHelper.checkContentProviderUriPermission(ContentProviderHelper.java:1199)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at com.android.server.am.ActivityManagerService$LocalService.checkContentProviderUriPermission(ActivityManagerService.java:16739)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at com.android.server.uri.UriGrantsManagerService.checkHoldingPermissionsInternalUnlocked(UriGrantsManagerService.java:1214)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at com.android.server.uri.UriGrantsManagerService.checkHoldingPermissionsUnlocked(UriGrantsManagerService.java:1124)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at com.android.server.uri.UriGrantsManagerService.checkContentUriPermissionFullUnlocked(UriGrantsManagerService.java:1511)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at com.android.server.uri.UriGrantsManagerService.-$$Nest$mcheckContentUriPermissionFullUnlocked(UriGrantsManagerService.java:0)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at com.android.server.uri.UriGrantsManagerService$LocalService.checkUriPermission(UriGrantsManagerService.java:1721)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityCallerState.addContentUriIfUidHasPermission(ActivityCallerState.java:168)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityCallerState.computeCallerInfo(ActivityCallerState.java:114)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityRecord.computeCallerInfo(ActivityRecord.java:1820)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityRecord.computeInitialCallerInfo(ActivityRecord.java:1814)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityStarter.handleStartResult(ActivityStarter.java:1793)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityStarter.startActivityUnchecked(ActivityStarter.java:1734)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityStarter.executeRequest(ActivityStarter.java:1547)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityStarter.execute(ActivityStarter.java:868)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityTaskManagerService.startActivityAsUser(ActivityTaskManagerService.java:1319)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityTaskManagerService.startActivityAsUser(ActivityTaskManagerService.java:1263)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityTaskManagerService.startActivity(ActivityTaskManagerService.java:1231)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at android.app.IActivityTaskManager$Stub.onTransact(IActivityTaskManager.java:1012)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityTaskManagerService.onTransact(ActivityTaskManagerService.java:5910)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at android.os.Binder.execTransactInternal(Binder.java:1485)
+12-15 21:12:35.801  1460  2835 E ContentProviderHelper: 	at android.os.Binder.execTransact(Binder.java:1424)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: Unable to check Uri permission because caller is holding WM lock; assuming permission denied
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: java.lang.IllegalStateException: Unable to check Uri permission because caller is holding WM lock; assuming permission denied
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at com.android.server.am.ContentProviderHelper.checkContentProviderUriPermission(ContentProviderHelper.java:1199)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at com.android.server.am.ActivityManagerService$LocalService.checkContentProviderUriPermission(ActivityManagerService.java:16739)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at com.android.server.uri.UriGrantsManagerService.checkHoldingPermissionsInternalUnlocked(UriGrantsManagerService.java:1214)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at com.android.server.uri.UriGrantsManagerService.checkHoldingPermissionsUnlocked(UriGrantsManagerService.java:1124)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at com.android.server.uri.UriGrantsManagerService.checkContentUriPermissionFullUnlocked(UriGrantsManagerService.java:1511)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at com.android.server.uri.UriGrantsManagerService.-$$Nest$mcheckContentUriPermissionFullUnlocked(UriGrantsManagerService.java:0)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at com.android.server.uri.UriGrantsManagerService$LocalService.checkUriPermission(UriGrantsManagerService.java:1721)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityCallerState.addContentUriIfUidHasPermission(ActivityCallerState.java:168)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityCallerState.computeCallerInfo(ActivityCallerState.java:117)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityRecord.computeCallerInfo(ActivityRecord.java:1820)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityRecord.computeInitialCallerInfo(ActivityRecord.java:1814)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityStarter.handleStartResult(ActivityStarter.java:1793)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityStarter.startActivityUnchecked(ActivityStarter.java:1734)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityStarter.executeRequest(ActivityStarter.java:1547)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityStarter.execute(ActivityStarter.java:868)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityTaskManagerService.startActivityAsUser(ActivityTaskManagerService.java:1319)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityTaskManagerService.startActivityAsUser(ActivityTaskManagerService.java:1263)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityTaskManagerService.startActivity(ActivityTaskManagerService.java:1231)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at android.app.IActivityTaskManager$Stub.onTransact(IActivityTaskManager.java:1012)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at com.android.server.wm.ActivityTaskManagerService.onTransact(ActivityTaskManagerService.java:5910)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at android.os.Binder.execTransactInternal(Binder.java:1485)
+12-15 21:12:35.802  1460  2835 E ContentProviderHelper: 	at android.os.Binder.execTransact(Binder.java:1424)
+12-15 21:12:35.803  1460  2835 I ActivityTaskManager: START u10 {act=android.provider.action.REVIEW dat=content://media/... flg=0x1 xflg=0x4 pkg=com.google.android.apps.photos cmp=com.google.android.apps.photos/.pager.HostPhotoPagerActivity (has extras)} with LAUNCH_MULTIPLE from uid 1010260 (com.google.android.GoogleCamera) (rr=12081326) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+12-15 21:12:35.803  2185  2422 V WindowManagerShell: Transition requested (#6385): android.os.BinderProxy@e332ba3 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=10 taskId=1000012 effectiveUid=1010260 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.google.android.GoogleCamera cmp=com.google.android.GoogleCamera/com.android.camera.CameraLauncher } baseActivity=ComponentInfo{com.google.android.GoogleCamera/com.google.android.apps.camera.activity.main.CameraActivity} topActivity=ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.pager.HostPhotoPagerActivity} origActivity=ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraLauncher} realActivity=ComponentInfo{com.google.android.GoogleCamera/com.google.android.apps.camera.activity.main.CameraActivity} numActivities=2 lastActiveTime=724012523 supportsMultiWindow=false resizeMode=0 isResizeable=false minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.os.BinderProxy@e5d06ff} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{6276ea0 com.google.android.apps.photos.pager.HostPhotoPagerActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(276, 716 - 804, 1796) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2424) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactiveundefined} topNonResizableActivityAspectRatio=-1.0} topActivityMainWindowFrame=null isAppBubble=false}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 6385 }
+12-15 21:12:35.803  2185  2422 D ShellSplitScreen: logExit: no-op, mLoggerSessionId is null
+12-15 21:12:35.812 25554 25554 W CAM_oif : update wear configuration.
+12-15 21:12:35.813  1002  1618 D usf_sensor_hal: double twist: Enter Activate. Enable = 0.
+12-15 21:12:35.814  1040  9489 I AF::TrackHandle: opChanged OP_PLAY_AUDIO callback received for 
+12-15 21:12:35.814  1277  1277 D AOC     : A3:MSG: usf_sensor.cc, 1792: USF: Received stop sampling request for Double Twist (active:0).
+12-15 21:12:35.815   978  1289 I Lyric   : camera_device_session_hwl_impl.cc:1127: Flush entered, camera_id: 0
+12-15 21:12:35.815   978  1289 I Lyric   : camera_powerhal_impl.cc:187: SetPowerBoost Trigger CAMERA_LAUNCH for 200ms
+12-15 21:12:35.815   978  1289 I Lyric   : camera_device_session_manager_base.cc:1303: Attempting to flush graph:top_graph_for_camera_RearMultiFov
+12-15 21:12:35.816  1277  1277 D AOC     : A3:MSG: vsc_sensor.cc, 68: VSC: [Double Twist] disable.
+12-15 21:12:35.816   978  1781 W Lyric   : auto_focus_node.cc:1309: 4 calls in 31 sec(s): cam2_af, frame_number: 237, shutter notification is not available. Update vsync with current boottime and previous offset.
+12-15 21:12:35.816   978  1785 W Lyric   : ois_node.cc:360: 3 calls in 31 sec(s): cam2_ois, frame_number: 237, shutter notification is not available. Update vsync with current boottime and previous offset.
+12-15 21:12:35.817   978  1782 W Lyric   : rectiface_node.cc:584: cam2_rectiface: Failed to generate sample temporal interval on frame: 237 status: UNAVAILABLE: Start of exposure time unavailable
+12-15 21:12:35.817   978  1785 I Lyric   : retiming_node.cc:571: Rear(hal id: 2), Reporting image frame drop to framework for stream id: 1, request id: 237
+12-15 21:12:35.818   978  1785 I Lyric   : retiming_node.cc:571: Rear(hal id: 2), Reporting image frame drop to framework for stream id: 1, request id: 238
+12-15 21:12:35.818   978  1785 I Lyric   : retiming_node.cc:571: Rear(hal id: 2), Reporting image frame drop to framework for stream id: 1, request id: 239
+12-15 21:12:35.818   978  1785 W Lyric   : tnr_align_node.cc:545: 4 calls in 31 sec(s): TnrAlignNode producing alignment and noise frame drops for batch with first frame number: 237 due to error: DATA_LOSS: missing request_settings; Produced 1 alignment and noise frame drops since started. The corresponding image frame(s) will still be processed without denoising in TNR merge.
+12-15 21:12:35.818   978  1785 W Lyric   : tnr_merge_node.cc:567: TnrMergeNode producing frame drops from context 0xb400ddb1f9c8a408 starting at frame number: 237 due to error: FAILED_PRECONDITION: Cannot correctly sharpen TNR image without GTM when tone mapping is supposed to be available.; TNR merge failed to get tuning data in context 0xb400ddb1f9c8a408
+12-15 21:12:35.818   978 31890 W Lyric   : auto_focus_node.cc:1161: cam2_af Request frame is drop, drop all algorithm output forframe 240
+12-15 21:12:35.818   978  1785 E Lyric   : actuator_node.cc:122: request drop.
+12-15 21:12:35.818   978  1784 W Lyric   : telemetry_node.cc:189: 1 calls in 31 sec(s): cam2_telemetry: auto_focus FN 240 Frame drop. Skip reporting.
+12-15 21:12:35.819   978 31891 I Lyric   : camera_device_session_manager_base.cc:1159: Reporting metadata frame drop for camera: RearMultiFov, request id: 237, partial result count: 1
+12-15 21:12:35.819   978  1776 W Lyric   : tnr_merge_node.cc:567: TnrMergeNode producing frame drops from context 0xb400ddb1f9c8a408 starting at frame number: 238 due to error: FAILED_PRECONDITION: Cannot correctly sharpen TNR image without GTM when tone mapping is supposed to be available.; TNR merge failed to get tuning data in context 0xb400ddb1f9c8a408
+12-15 21:12:35.819   978  1777 W Lyric   : face_detection_node.cc:633: 4 calls in 31 sec(s): Face Detection: producing frame drops due to request frame drop
+12-15 21:12:35.819   978  1784 W Lyric   : face_detection_node.cc:779: 1 calls in 23 sec(s): Face Detection: processing stage skipped due to controller IO frame drop
+12-15 21:12:35.819   978  1777 W Lyric   : auto_focus_node.cc:1395: 4 calls in 31 sec(s): cam2_af, frame_number: 237, request frame is not available
+12-15 21:12:35.819   978  1777 W Lyric   : rectiface_node.cc:1233: cam2_rectiface: Failed to process Ois samples on leader frame: 237, status: INTERNAL: ois sample frame is dropped
+12-15 21:12:35.819   978  1777 W Lyric   : rectiface_node.cc:1325: cam2_rectiface: process leader actuator position error: UNAVAILABLE: actuator_readout_packet is dropped
+12-15 21:12:35.819   978 31891 W Lyric   : mesh_warp_node.cc:734: cam2_preview_mesh_warp Request frame is drop, drop all output for frame 237
+12-15 21:12:35.819   978 31890 W Lyric   : sensor_node.cc:763: cam2_sensor SensorNode producing drops due to frame request drop on frame 240
+12-15 21:12:35.819   978  1775 W Lyric   : scaler_node.cc:813: 4 calls in 31 sec(s): cam2_preview_scaler Input is drop, drop all outputs for frame 237
+12-15 21:12:35.819   978  1775 W Lyric   : scaler_node.cc:1079: 4 calls in 31 sec(s): FAILED_PRECONDITION: cam2_preview_scaler producing drops as all input frames are dropped
+12-15 21:12:35.819   978  1776 I Lyric   : retiming_node.cc:571: Rear(hal id: 2), Reporting image frame drop to framework for stream id: 32771, request id: 237
+12-15 21:12:35.819   978  1775 W Lyric   : tuning_node.cc:1013: 1 calls in 87 sec(s): TuningNode is using cached tuning point because: exposure_config_frame is dropae_frame_data is invalid ae_data_frame is drop awb_data_frame is drop
+12-15 21:12:35.819   978  1785 I Lyric   : camera_device_session_manager_base.cc:1159: Reporting metadata frame drop for camera: RearMultiFov, request id: 238, partial result count: 1
+12-15 21:12:35.819   978  1785 I Lyric   : camera_device_session_manager_base.cc:1159: Reporting metadata frame drop for camera: RearMultiFov, request id: 239, partial result count: 1
+12-15 21:12:35.819   978 31891 W Lyric   : tnr_merge_node.cc:567: TnrMergeNode producing frame drops from context 0xb400ddb1f9c8a408 starting at frame number: 239 due to error: FAILED_PRECONDITION: Cannot correctly sharpen TNR image without GTM when tone mapping is supposed to be available.; TNR merge failed to get tuning data in context 0xb400ddb1f9c8a408
+12-15 21:12:35.820   978  1777 W Lyric   : rectiface_node.cc:584: cam2_rectiface: Failed to generate sample temporal interval on frame: 238 status: UNAVAILABLE: Start of exposure time unavailable
+12-15 21:12:35.820   978 31891 I Lyric   : fe_node.cc:2724: cam2_frontend received incomplete request at frame number: 240, request dropped: 1, sensor_image dropped: 1, sensor_properties dropped: 1, tuning point dropped: 0
+12-15 21:12:35.820   978  1777 E Lyric   : blending_node.cc:320: cam2_blending: input yuv is dropped. FN: 237 Fwk req id: 237
+12-15 21:12:35.820   978 31890 I Lyric   : retiming_node.cc:571: Rear(hal id: 2), Reporting image frame drop to framework for stream id: 1, request id: 240
+12-15 21:12:35.820   978 31891 I Lyric   : fe_node.cc:1598: cam2_frontend Finished processing an incomplete_request at frame 240 when flush_mark is at frame -1 power mode is Normal
+12-15 21:12:35.820   978  1776 I Lyric   : sensor_node.cc:627: cam2_sensor Missing sensor results for frame 240
+12-15 21:12:35.820   978  1777 W Lyric   : zuma_blending_controller.cc:140: 5 calls in 87 sec(s): Missing input for lead camera: 2 yuv:0x0 mask: 0x0 metadata: 0x0 FN: 237
+12-15 21:12:35.820   978  1776 I Lyric   : retiming_node.cc:571: Rear(hal id: 2), Reporting image frame drop to framework for stream id: 32769, request id: 237
+12-15 21:12:35.820   978 31891 W Lyric   : tnr_merge_node.cc:567: TnrMergeNode producing frame drops from context 0xb400ddb1f9c8a408 starting at frame number: 240 due to error: FAILED_PRECONDITION: Cannot correctly sharpen TNR image without GTM when tone mapping is supposed to be available.; TNR merge failed to get tuning data in context 0xb400ddb1f9c8a408
+12-15 21:12:35.820  1002  1673 I sensor-suez: Vendor atom [id = 100242] reported.
+12-15 21:12:35.820  1002  1673 I sensor-suez: Vendor atom [id = 100243] reported.
+12-15 21:12:35.820   978  1777 W Lyric   : rectiface_node.cc:1233: cam2_rectiface: Failed to process Ois samples on leader frame: 238, status: INTERNAL: ois sample frame is dropped
+12-15 21:12:35.820   978  1777 W Lyric   : rectiface_node.cc:1325: cam2_rectiface: process leader actuator position error: UNAVAILABLE: actuator_readout_packet is dropped
+12-15 21:12:35.820   978 31891 W Lyric   : mesh_warp_node.cc:734: cam2_preview_mesh_warp Request frame is drop, drop all output for frame 238
+12-15 21:12:35.820  1460  5545 W WindowManager: lockNow pending, ignore updating lockscreen timeout
+12-15 21:12:35.820   978 31890 I Lyric   : retiming_node.cc:571: Rear(hal id: 2), Reporting image frame drop to framework for stream id: 32771, request id: 238
+12-15 21:12:35.820   978 31891 I Lyric   : retiming_node.cc:571: Rear(hal id: 2), Reporting image frame drop to framework for stream id: 32769, request id: 238
+12-15 21:12:35.820   978  1785 W Lyric   : mesh_warp_node.cc:734: cam2_preview_mesh_warp Request frame is drop, drop all output for frame 239
+12-15 21:12:35.821   978 31890 I Lyric   : retiming_node.cc:571: Rear(hal id: 2), Reporting image frame drop to framework for stream id: 32771, request id: 239
+12-15 21:12:35.821   978  1785 I Lyric   : camera_device_session_manager_base.cc:1159: Reporting metadata frame drop for camera: RearMultiFov, request id: 237, partial result count: 2
+12-15 21:12:35.821   978  1289 I Lyric   : fe_node.cc:1024: cam3_frontend flush at flush_mark -1 output frame stats (ignores fence-signaled drops): {process_input_count = 0, dropped_all_outputs = 0, valid_ae = 0, valid_pre_lsc_ae = 0, valid_uae = 0, valid_awb = 0, valid_histogram = 0, valid_flicker = 0, valid_motion = 0, valid_cdaf = 0, valid_pdaf = 0, valid_align = 0, valid_alias_map = 0, valid_gaussian_pyramid = 0, valid_scaled_rgb_stats = 0, valid_scaled_yuv_stats = 0, valid_lsc = 0, valid_bilateral_grid = 0, valid_scaled_rgb = 0, valid_scaled_yuv = 0, valid_cam_data_dump = 0, valid_pixel_patch = 0}
+12-15 21:12:35.821   978  1289 I Lyric   : unified_zuma_front_end_controller.cc:427: [CAM3] Flushing at Standby mode
+12-15 21:12:35.821   978  1289 I Lyric   : unified_zuma_front_end_controller.cc:434: [CAM3] Flush skipped at inactive power mode.
+12-15 21:12:35.821   978 31891 I Lyric   : retiming_node.cc:571: Rear(hal id: 2), Reporting image frame drop to framework for stream id: 32769, request id: 239
+12-15 21:12:35.821   978 31890 I Lyric   : camera_device_session_manager_base.cc:1159: Reporting metadata frame drop for camera: RearMultiFov, request id: 240, partial result count: 1
+12-15 21:12:35.821   978  1776 W Lyric   : mesh_warp_node.cc:734: cam2_preview_mesh_warp Request frame is drop, drop all output for frame 240
+12-15 21:12:35.821   978 31890 I Lyric   : camera_device_session_manager_base.cc:1159: Reporting metadata frame drop for camera: RearMultiFov, request id: 238, partial result count: 2
+12-15 21:12:35.821   978 31891 I Lyric   : camera_device_session_manager_base.cc:1159: Reporting metadata frame drop for camera: RearMultiFov, request id: 239, partial result count: 2
+12-15 21:12:35.821   978  1785 I Lyric   : retiming_node.cc:571: Rear(hal id: 2), Reporting image frame drop to framework for stream id: 32771, request id: 240
+12-15 21:12:35.821   978  1289 I Lyric   : zuma_backend_pipeline_context.cc:1933: Flushing backend pipeline Pipeline (ID: (instance_id: 162872), IPs: [ RawToYuv TnrMerge ], Max Outputs: 1, IPConnections: [ {producer: RawToYuv, consumer: TnrMerge, connection_type: votf}, ], Usecase: Realtime) took 39 us, with flush HW = false
+12-15 21:12:35.822   978  1785 I Lyric   : camera_device_session_manager_base.cc:1159: Reporting metadata frame drop for camera: RearMultiFov, request id: 240, partial result count: 2
+12-15 21:12:35.822   978 31890 I Lyric   : retiming_node.cc:571: Rear(hal id: 2), Reporting image frame drop to framework for stream id: 32769, request id: 240
+12-15 21:12:35.822  1002  1618 D usf_sensor_hal: accelerometer: Enter Batch. Period = 20000000, latency = 0.
+12-15 21:12:35.822   978  1289 I Lyric   : zuma_backend_pipeline_context.cc:1933: Flushing backend pipeline Pipeline (ID: (instance_id: 162869), IPs: [ RawToYuv ], Max Outputs: 1, IPConnections: [ ], Usecase: Realtime) took 170 us, with flush HW = false
+12-15 21:12:35.822   978  1289 I Lyric   : zuma_backend_pipeline_context.cc:1933: Flushing backend pipeline Pipeline (ID: (instance_id: 162872), IPs: [ RawToYuv TnrMerge ], Max Outputs: 1, IPConnections: [ {producer: RawToYuv, consumer: TnrMerge, connection_type: votf}, ], Usecase: Realtime) took 2 us, with flush HW = false
+12-15 21:12:35.822  1002  1618 D usf_sensor_hal: IMU temperature: Enter Batch. Period = 533334000, latency = 0.
+12-15 21:12:35.822   978  1289 I Lyric   : zuma_backend_pipeline_context.cc:1933: Flushing backend pipeline Pipeline (ID: (instance_id: 162873), IPs: [ MeshWarp Scaler ], Max Outputs: 2, IPConnections: [ {producer: MeshWarp, consumer: Scaler, connection_type: votf}, ], Usecase: Realtime) took 3 us, with flush HW = false
+12-15 21:12:35.822   978  1289 I Lyric   : zuma_backend_pipeline_context.cc:1933: Flushing backend pipeline Pipeline (ID: (instance_id: 162873), IPs: [ MeshWarp Scaler ], Max Outputs: 2, IPConnections: [ {producer: MeshWarp, consumer: Scaler, connection_type: votf}, ], Usecase: Realtime) took 1 us, with flush HW = false
+12-15 21:12:35.822   978  1289 I Lyric   : fe_node.cc:1024: cam2_frontend flush at flush_mark 240 output frame stats (ignores fence-signaled drops): {process_input_count = 0, dropped_all_outputs = 0, valid_ae = 0, valid_pre_lsc_ae = 0, valid_uae = 0, valid_awb = 0, valid_histogram = 0, valid_flicker = 0, valid_motion = 0, valid_cdaf = 0, valid_pdaf = 0, valid_align = 0, valid_alias_map = 0, valid_gaussian_pyramid = 0, valid_scaled_rgb_stats = 0, valid_scaled_yuv_stats = 0, valid_lsc = 0, valid_bilateral_grid = 0, valid_scaled_rgb = 0, valid_scaled_yuv = 0, valid_cam_data_dump = 0, valid_pixel_patch = 0}
+12-15 21:12:35.822   978  1289 I Lyric   : unified_zuma_front_end_controller.cc:427: [CAM2] Flushing at Normal mode
+12-15 21:12:35.822   978  1289 I Lyric   : per_camera_barrier_impl.cc:47: Blocker for FeControllerBlockCam2ToStop#1ForFlush acquired
+12-15 21:12:35.822   978  1289 I Lyric   : inflight_config_queue.cc:151: [CAM2][ISPFE] Flushing 2 pending configs. Queue: last completed: (sensor frame # 238 (abs 237), id: 31548) pending: (sensor frame # 239 (abs 238), id: 31549), (sensor frame # 240 (abs 239), id: 31550), 
+12-15 21:12:35.822  1002  1673 I sensor-suez: Vendor atom [id = 100243] reported.
+12-15 21:12:35.822  1277  1277 D AOC     : A3:MSG: usf_vsc_log.cc, 45: USF: [DoubleTwist] doubleTwistPower 0
+12-15 21:12:35.822  1277  1277 D AOC     : A3:MSG: vsc_controller.cc, 602: VSC: [Double Twist] stopSensorEvents: sensor 0x10001
+12-15 21:12:35.822  1277  1277 D AOC     : A3:MSG: usf_sensor.cc, 1784: USF: Received start sampling request for LSM6DSV Accelerometer (active:7).
+12-15 21:12:35.822  1002  1618 D usf_sensor_hal: magnetometer: Enter Activate. Enable = 0.
+12-15 21:12:35.822   978  1289 I Lyric   : fe_programming_async.cc:385: [CAM2][ISPFE] Rewinding PDMA write pointer to end of sensor frame # 238 (abs 237) commands. Write pointer: 808
+12-15 21:12:35.822   978  1289 I Lyric   : frame_images_queue_handler.cc:140: [CAM2] Bayer[0] Canceled sensor frames 239 240 Flushed [CAM2] Bayer[0] frame 239 240
+12-15 21:12:35.822   978  1289 I Lyric   : frame_images_queue_handler.cc:140: [CAM2] PD[0] Canceled sensor frames 239 240 Flushed [CAM2] PD[0] frame 239 240
+12-15 21:12:35.822   978  1289 I Lyric   : lmp_pipeline.cc:585: [Bayer3][CAM2] Removed obsolete lmp frame (not frame 238) 239 240
+12-15 21:12:35.822   978  1289 I Lyric   : lmp_pipeline.cc:585: [Pdaf0][CAM2] Removed obsolete lmp frame (not frame 238) 239 240
+12-15 21:12:35.822   978  1289 I Lyric   : zuma_lmp_context.cc:117: Flushing Lmp context bayer
+12-15 21:12:35.822   978  1289 I Lyric   : lmp_pipeline.cc:494: [Bayer3][CAM2] Drain(timeout=301.8975865ms) entered. Number of frames in the queue is 1
+12-15 21:12:35.822   978  1289 I Lyric   : lmp_pipeline.cc:511: [Bayer3][CAM2] Waiting for pipeline to drain. There are 1 pending transactions for frames: sensor frame numbers: [238], abs frame numbers: [237]
+12-15 21:12:35.823  1460  2147 D BackgroundInstallControlService: Package event received: 0
+12-15 21:12:35.823   978 26402 I GCH_CameraDeviceSession: UpdatePendingRequest: [sbc] All inflight requests/streams cleared. Notified SBC for flushing.
+12-15 21:12:35.824   978 26406 E GCH_PendingRequestsTracker: TrackReturnedAcquiredBuffers: stream 0 should not have any pending acquired buffers.
+12-15 21:12:35.824   978 26406 I GCH_CameraDeviceSession: operator(): [sbc] Flushed buf[0xb400ddb1c9ce0290] bid[12] strm[0] frm[xx]
+12-15 21:12:35.824   978 26406 E GCH_PendingRequestsTracker: TrackReturnedAcquiredBuffers: stream 1 should not have any pending acquired buffers.
+12-15 21:12:35.824   978 26406 I GCH_CameraDeviceSession: operator(): [sbc] Flushed buf[0xb400ddb1c9c98d50] bid[34] strm[1] frm[xx]
+12-15 21:12:35.824   978 26406 E GCH_PendingRequestsTracker: TrackReturnedAcquiredBuffers: stream 2 should not have any pending acquired buffers.
+12-15 21:12:35.824   978 26406 I GCH_CameraDeviceSession: operator(): [sbc] Flushed buf[0xb400ddb1c9ce5250] bid[3] strm[2] frm[xx]
+12-15 21:12:35.824  1460  2147 D BackgroundInstallControlService: Package event received: 0
+12-15 21:12:35.824  1460  2147 D BackgroundInstallControlService: Package event received: 0
+12-15 21:12:35.824  1460  2147 D BackgroundInstallControlService: Package event received: 0
+12-15 21:12:35.824  1164 26380 D CameraService: finishCameraStreamingOps: finishDataDelivery for uid 1010260
+12-15 21:12:35.824   978 26406 E GCH_PendingRequestsTracker: TrackReturnedAcquiredBuffers: stream 3 should not have any pending acquired buffers.
+12-15 21:12:35.824   978 26406 I GCH_CameraDeviceSession: operator(): [sbc] Flushed buf[0xb400ddb1c9cd5550] bid[24] strm[3] frm[xx]
+12-15 21:12:35.824  2381  3812 D ForegroundUtils: onUidImportance: Foreground UID status
+12-15 21:12:35.824  2381  3812 D ForegroundUtils: onUidImportance: UID: 1068 is in foreground: true
+12-15 21:12:35.824  2381  3812 D ForegroundUtils: onUidImportance: UID: 10114 is in foreground: true
+12-15 21:12:35.824  2381  3812 D ForegroundUtils: onUidImportance: UID: 10141 is in foreground: true
+12-15 21:12:35.824  2381  3812 D ForegroundUtils: onUidImportance: UID: 10147 is in foreground: false
+12-15 21:12:35.824  2381  3812 D ForegroundUtils: onUidImportance: UID: 10149 is in foreground: true
+12-15 21:12:35.824  2381  3812 D ForegroundUtils: onUidImportance: UID: 10151 is in foreground: true
+12-15 21:12:35.824  2381  3812 D ForegroundUtils: onUidImportance: UID: 10157 is in foreground: true
+12-15 21:12:35.824  2381  3812 D ForegroundUtils: onUidImportance: UID: 10158 is in foreground: false
+12-15 21:12:35.824  2381  3812 D ForegroundUtils: onUidImportance: UID: 10160 is in foreground: true
+12-15 21:12:35.824  2381  3812 D ForegroundUtils: onUidImportance: UID: 10241 is in foreground: false
+12-15 21:12:35.825  2381  3812 D ForegroundUtils: onUidImportance: UID: 10258 is in foreground: false
+12-15 21:12:35.825  2381  3812 D ForegroundUtils: onUidImportance: UID: 1001000 is in foreground: false
+12-15 21:12:35.825  2381  3812 D ForegroundUtils: onUidImportance: UID: 1001002 is in foreground: true
+12-15 21:12:35.825  2381  3812 D ForegroundUtils: onUidImportance: UID: 1010147 is in foreground: false
+12-15 21:12:35.825  2381  3812 D ForegroundUtils: onUidImportance: UID: 1010157 is in foreground: true
+12-15 21:12:35.825  2381  3812 D ForegroundUtils: onUidImportance: UID: 1010160 is in foreground: false
+12-15 21:12:35.825  2381  3812 D ForegroundUtils: onUidImportance: UID: 1010258 is in foreground: true
+12-15 21:12:35.825  2381  3812 D ForegroundUtils: onUidImportance: UID: 1010260 is in foreground: true
+12-15 21:12:35.825  2381  3812 D ForegroundUtils: onUidImportance: UID: 1010268 is in foreground: true
+12-15 21:12:35.825  1460  1522 W WindowManager: lockNow pending, ignore updating lockscreen timeout
+12-15 21:12:35.827  1277  1277 D AOC     : A3:MSG: usf_sensor.cc, 1792: USF: Received stop sampling request for MMC5616 Magnetometer (active:1).
+12-15 21:12:35.827  1277  1277 D AOC     : A3:MSG: mmc5616_device.cc, 448: USF: MMC56160: mmc5616_enable_measure odr = 10.
+12-15 21:12:35.827  1002  1673 I sensor-suez: Vendor atom [id = 100242] reported.
+12-15 21:12:35.827  1002  1673 I sensor-suez: Vendor atom [id = 100243] reported.
+12-15 21:12:35.830  1460  2835 W WindowManager: lockNow pending, ignore updating lockscreen timeout
+12-15 21:12:35.831  1002  1618 D usf_sensor_hal: accelerometer: Enter Batch. Period = 200000000, latency = 0.
+12-15 21:12:35.834  1277  1277 D AOC     : A3:MSG: usf_sensor.cc, 2402: USF: Received reconfig sampling request for LSM6DSV Accelerometer.
+12-15 21:12:35.834  1002  1618 D usf_sensor_hal: IMU temperature: Enter Batch. Period = 533334000, latency = 0.
+12-15 21:12:35.835  1002  1673 I sensor-suez: Vendor atom [id = 100243] reported.
+12-15 21:12:35.835  1002  1618 D usf_sensor_hal: gyroscope: Enter Activate. Enable = 0.
+12-15 21:12:35.836  1460  1895 D ActivityManager: sync unfroze 25292 com.google.android.apps.messaging for 6
+12-15 21:12:35.837   978  1289 I Lyric   : lmp_pipeline.cc:523: [Bayer3][CAM2] Pipeline drained.
+12-15 21:12:35.837   978  1289 I Lyric   : zuma_lmp_context.cc:120: Done flushing Lmp context bayer
+12-15 21:12:35.837   978  1289 I Lyric   : zuma_lmp_context.cc:117: Flushing Lmp context pdaf
+12-15 21:12:35.837   978  1289 I Lyric   : lmp_pipeline.cc:494: [Pdaf0][CAM2] Drain(timeout=0) entered. Number of frames in the queue is 0
+12-15 21:12:35.837   978  1289 I Lyric   : lmp_pipeline.cc:498: [Pdaf0][CAM2] Pipeline drained.
+12-15 21:12:35.837   978  1289 I Lyric   : zuma_lmp_context.cc:120: Done flushing Lmp context pdaf
+12-15 21:12:35.837   978  1289 I Lyric   : zuma_csis_core_context.cc:957: [CAM2] Waiting for 0 bayer[0] images: none, 0 pd[0] images: none for 33ms
+12-15 21:12:35.837   978  1289 I Lyric   : zuma_csis_core_context.cc:966: [CAM2] Flush is done
+12-15 21:12:35.837   978  1289 I Lyric   : unified_zuma_front_end_controller.cc:562: [CAM2] Sensor isn't waiting on the barrier, skip re-acquiring the blocker
+12-15 21:12:35.837   978  1289 I Lyric   : unified_zuma_front_end_controller.cc:483: [CAM2] Flushed.
+12-15 21:12:35.837   978  1289 I Lyric   : per_camera_barrier_impl.cc:58: Blocker for FeControllerBlockCam2ToStop#1ForFlush released with status: OK without lwis fence.
+12-15 21:12:35.837   978  1289 I Lyric   : unified_zuma_front_end_controller.cc:519: [CAM2] Sensor isn't waiting on the barrier, skip re-acquiring the blocker
+12-15 21:12:35.837   978  1289 I Lyric   : zuma_backend_pipeline_context.cc:1933: Flushing backend pipeline Pipeline (ID: (instance_id: 162891), IPs: [ RawToYuv TnrMerge ], Max Outputs: 1, IPConnections: [ {producer: RawToYuv, consumer: TnrMerge, connection_type: votf}, ], Usecase: Realtime) took 15 us, with flush HW = false
+12-15 21:12:35.837   978  1289 I Lyric   : zuma_backend_pipeline_context.cc:1933: Flushing backend pipeline Pipeline (ID: (instance_id: 162888), IPs: [ RawToYuv ], Max Outputs: 1, IPConnections: [ ], Usecase: Realtime) took 3 us, with flush HW = false
+12-15 21:12:35.837   978  1289 I Lyric   : zuma_backend_pipeline_context.cc:1933: Flushing backend pipeline Pipeline (ID: (instance_id: 162891), IPs: [ RawToYuv TnrMerge ], Max Outputs: 1, IPConnections: [ {producer: RawToYuv, consumer: TnrMerge, connection_type: votf}, ], Usecase: Realtime) took 1 us, with flush HW = false
+12-15 21:12:35.837   978  1289 I Lyric   : zuma_backend_pipeline_context.cc:1933: Flushing backend pipeline Pipeline (ID: (instance_id: 162892), IPs: [ MeshWarp Scaler ], Max Outputs: 2, IPConnections: [ {producer: MeshWarp, consumer: Scaler, connection_type: votf}, ], Usecase: Realtime) took 4 us, with flush HW = false
+12-15 21:12:35.837   978  1289 I Lyric   : zuma_backend_pipeline_context.cc:1933: Flushing backend pipeline Pipeline (ID: (instance_id: 162892), IPs: [ MeshWarp Scaler ], Max Outputs: 2, IPConnections: [ {producer: MeshWarp, consumer: Scaler, connection_type: votf}, ], Usecase: Realtime) took 1 us, with flush HW = false
+12-15 21:12:35.837   978  1289 I Lyric   : auto_focus_node.cc:2371: cam2_af: af context is flushed successfully
+12-15 21:12:35.837   978  1289 I Lyric   : phase_detection_node.cc:659: cam2_pd: Flush done
+12-15 21:12:35.837   978  1289 I Lyric   : auto_exposure_node.cc:1159: {type: Node, name: top_graph_for_camera_RearMultiFov.cam2_ae, class_name: AutoExposureNode}: AE input statistics: {process_input_count = 241, dropped_requests = 1, stats_not_ready_count = 0, motion_stats_not_ready_count = 0, segmentation_mask_not_ready_count = 0, stage_detection_result_not_ready_count = 0, saliency_data_not_ready_count = 0, valid_flash_state = 240, valid_exposure_timestamp = 237, valid_sensor_properties = 237, valid_motion_stats = 0, valid_wb_config = 239, valid_color_correction = 239}
+12-15 21:12:35.837  1277  1277 D AOC     : A3:MSG: usf_sensor.cc, 1792: USF: Received stop sampling request for LSM6DSV Gyroscope (active:4).
+12-15 21:12:35.837   978  1289 I Lyric   : retiming_node.cc:1692: Rear(hal id: 2), Over the past 1.042786825s there were 14 responses sent and 10 of them had no error. FPS: 13.4256 Non-error FPS: 9.58969
+12-15 21:12:35.837   978  1289 I Lyric   : camera_device_session_manager_base.cc:1354: Finished flushing graph:top_graph_for_camera_RearMultiFov
+12-15 21:12:35.837   978 26509 W Lyric   : framework_allocator.cc:369: Removing framework buffer cache when the buffer reference is held by not just the FrameworkAllocator's cache, use_count: 3, info: {type: FrameworkBuffer, Size: 15168000, FD: 792, Attributes: Transport: DMA, CPU Access: true, GPU Access: false, Security: None, Cached: UnCached, Compression: None}
+12-15 21:12:35.837   978 26509 I Lyric   : framework_allocator.cc:50: Current registry:  - lifetime allocations: 713, deallocations: 712, outstanding: 1, peak outstanding: 6
+12-15 21:12:35.837   978 26509 I Lyric   :  - current bytes allocated: 0, peak bytes allocated: 0 (framework buffers not tracked)
+12-15 21:12:35.837   978 26509 I Lyric   :  -  1 instances of {type: AllocationSpec, request_id: 237, stream_id: 1} allocated at frontend_request_node.cc:271
+12-15 21:12:35.838 25554 25687 W CAM_MetadataDst: onCaptureFailed for Frame 237
+12-15 21:12:35.838 25554 26372 W CAM_YUV_420_888w1440h10: Received onBufferLost from Stream-10 for frame 237 but was unable to find a matching request to abort.
+12-15 21:12:35.838  1002  1618 D usf_sensor_hal: IMU temperature: Enter Batch. Period = 533334000, latency = 0.
+12-15 21:12:35.838 25554 26371 W CAM_RAW10w4208h3120: Received onBufferLost from Stream-9 for frame 237 but was unable to find a matching request to abort.
+12-15 21:12:35.838 25554 26371 W CAM_RAW10w4208h3120: Received onBufferLost from Stream-9 for frame 238 but was unable to find a matching request to abort.
+12-15 21:12:35.839  1002  1673 I sensor-suez: Vendor atom [id = 100242] reported.
+12-15 21:12:35.839  1002  1673 I sensor-suez: Vendor atom [id = 100243] reported.
+12-15 21:12:35.839 25554 26370 W CAM_RAW10w4000h3000: Received onBufferLost from Stream-8 for frame 237 but was unable to find a matching request to abort.
+12-15 21:12:35.839 25554 26373 W CAM_PRIVATEw1440h1080: Received onBufferLost from Stream-11 for frame 237 but was unable to find a matching request to abort.
+12-15 21:12:35.839 25554 25687 W CAM_MetadataDst: onCaptureFailed for Frame 238
+12-15 21:12:35.839 25554 26372 W CAM_YUV_420_888w1440h10: Received onBufferLost from Stream-10 for frame 238 but was unable to find a matching request to abort.
+12-15 21:12:35.839 25554 25687 W CAM_MetadataDst: onCaptureFailed for Frame 239
+12-15 21:12:35.839 25554 26371 W CAM_RAW10w4208h3120: Received onBufferLost from Stream-9 for frame 239 but was unable to find a matching request to abort.
+12-15 21:12:35.839 25554 26372 W CAM_YUV_420_888w1440h10: Received onBufferLost from Stream-10 for frame 239 but was unable to find a matching request to abort.
+12-15 21:12:35.839 25554 26373 W CAM_PRIVATEw1440h1080: Received onBufferLost from Stream-11 for frame 238 but was unable to find a matching request to abort.
+12-15 21:12:35.839 25554 26373 W CAM_PRIVATEw1440h1080: Received onBufferLost from Stream-11 for frame 239 but was unable to find a matching request to abort.
+12-15 21:12:35.839 25554 26371 W CAM_RAW10w4208h3120: Received onBufferLost from Stream-9 for frame 240 but was unable to find a matching request to abort.
+12-15 21:12:35.839 25554 25687 W CAM_MetadataDst: onCaptureFailed for Frame 240
+12-15 21:12:35.840 25554 26372 W CAM_YUV_420_888w1440h10: Received onBufferLost from Stream-10 for frame 240 but was unable to find a matching request to abort.
+12-15 21:12:35.840 25554 26370 W CAM_RAW10w4000h3000: Received onBufferLost from Stream-8 for frame 238 but was unable to find a matching request to abort.
+12-15 21:12:35.840 25554 26373 W CAM_PRIVATEw1440h1080: Received onBufferLost from Stream-11 for frame 240 but was unable to find a matching request to abort.
+12-15 21:12:35.840 25554 26370 W CAM_RAW10w4000h3000: Received onBufferLost from Stream-8 for frame 239 but was unable to find a matching request to abort.
+12-15 21:12:35.840 25554 26370 W CAM_RAW10w4000h3000: Received onBufferLost from Stream-8 for frame 240 but was unable to find a matching request to abort.
+12-15 21:12:35.842  1460  4399 W TransitionChain: Combining toTransluce into #6385(OPEN|R|0x0) from startAct
+12-15 21:12:35.845  1460  5545 W ProcessStats: Tracking association SourceState{cd4271f system/1000 ImpBg #564256} whose proc state 6 is better than process ProcessState{ec5f52b com.google.android.apps.messaging/10239 pkg=com.google.android.apps.messaging} proc state 14 (28 skipped)
+12-15 21:12:35.851 25292 25346 I ForwardSyncCache: reclaimMemory: Clearing caches
+12-15 21:12:35.853 25554 26399 W GraphicBufferSource: released unpopulated slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
+12-15 21:12:35.858  1016  1061 I ExynosC2HevcEncComponent: [release] component is released
+12-15 21:12:35.858  5326  5562 D MediaProvider: Open with FUSE. FilePath: /storage/emulated/10/DCIM/Camera/PXL_20251216_030409204.MP.jpg. Uid: 1010268. Media Capabilities Uid: 0. ShouldRedact: false. ShouldTranscode: false
+12-15 21:12:35.858 25292 25374 I BugleDataModel: ActionExecutorImpl: ACTION_EXECUTE_QUEUED_SendReportAction
+12-15 21:12:35.858 25554 26453 D AidlBufferPool: bufferpool2 0xce3c34c3ef38 : 0(0 size) total buffers - 0(0 size) used buffers - 0/0 (recycle/alloc) - 0/0 (fetch/transfer)
+12-15 21:12:35.858 25554 26453 D AidlBufferPool: Destruction - bufferpool2 0xce3c34c3ef38 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+12-15 21:12:35.859 21348 21348 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): android.app.Activity$$ExternalSyntheticLambda0@eb255ff
+12-15 21:12:35.859 21348 21348 D WindowOnBackDispatcher: setTopOnBackInvokedCallback (unwrapped): hvy@a5c7fcc
+12-15 21:12:35.862 25292 25516 I BugleDataModel: ExecuteActionRunnable: running action SendReportAction
+12-15 21:12:35.863  1460  5485 D CoreBackPreview: Window{b945ea9 u10 com.google.android.apps.photos/com.google.android.apps.photos.pager.HostPhotoPagerActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@f7f2dc7, mPriority=-1, mIsAnimationCallback=false, mOverrideBehavior=0}
+12-15 21:12:35.864  1016  4856 D AidlBufferPool: bufferpool2 0x900cb4300766568 : 0(0 size) total buffers - 0(0 size) used buffers - 0/0 (recycle/alloc) - 0/0 (fetch/transfer)
+12-15 21:12:35.864  1016  4856 D AidlBufferPool: Destruction - bufferpool2 0x900cb4300766568 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+12-15 21:12:35.864  1460  5545 W WindowManager: lockNow pending, ignore updating lockscreen timeout
+12-15 21:12:35.865 25554 26414 W GraphicBufferSource: released unpopulated slots: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
+12-15 21:12:35.865 25292 25516 I BugleDataModel: ActionExecutorImpl: ACTION_BACKGROUND_QUEUED_SendReportAction
+12-15 21:12:35.866  1460  5485 D CoreBackPreview: Window{b945ea9 u10 com.google.android.apps.photos/com.google.android.apps.photos.pager.HostPhotoPagerActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@aff7760, mPriority=0, mIsAnimationCallback=true, mOverrideBehavior=0}
+12-15 21:12:35.870 25292 26344 W JobInfo : Job 'com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionJobService#101' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+12-15 21:12:35.870  1016  4856 I ExynosC2HevcEncComponent: [release] component is released
+12-15 21:12:35.871  1460  5485 W JobInfo : Job 'com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionJobService#101' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+12-15 21:12:35.871 25554 26439 D AidlBufferPool: bufferpool2 0xce3c34c41b28 : 0(0 size) total buffers - 0(0 size) used buffers - 0/0 (recycle/alloc) - 0/0 (fetch/transfer)
+12-15 21:12:35.871 25554 26439 D AidlBufferPool: Destruction - bufferpool2 0xce3c34c41b28 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+12-15 21:12:35.871  1016 28676 D AidlBufferPool: bufferpool2 0x100cb43006f2de8 : 0(0 size) total buffers - 0(0 size) used buffers - 0/0 (recycle/alloc) - 0/0 (fetch/transfer)
+12-15 21:12:35.871  1016 28676 D AidlBufferPool: Destruction - bufferpool2 0x100cb43006f2de8 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+12-15 21:12:35.872 25292 25346 W Bugle   : TextClassifierLibManagerImpl: Reclaiming memory at level: 40
+12-15 21:12:35.876 25292 26344 I BugleDataModel: ActionExecutorImpl: ACTION_RESPONSE_QUEUED_SendReportAction
+12-15 21:12:35.877  1460  5485 W JobScheduler: Job didn't exist in JobStore: 75cc17b #u0a239/101 com.google.android.apps.messaging/.shared.datamodel.action.execution.ActionJobService
+12-15 21:12:35.896  1460  1522 W WindowManager: lockNow pending, ignore updating lockscreen timeout
+12-15 21:12:35.896  1040  9489 D StreamHalAidl: [in|ioHandle:1422] dump
+12-15 21:12:35.899 25292 25380 I ForwardSyncCache: reclaimMemory: Clearing caches
+12-15 21:12:35.900 25292 25380 W Bugle   : TextClassifierLibManagerImpl: Reclaiming memory at level: 40
+12-15 21:12:35.900  1460  5485 W WindowManager: lockNow pending, ignore updating lockscreen timeout
+12-15 21:12:35.903 25554 25578 I native  : I0000 00:00:1765854755.902888   25578 gxp_device.cc:220] GxpDevice closed.
+12-15 21:12:35.905  1040  9489 W libutils.threads: Thread (this=0xc018cdaad008): getTid() is undefined before run()
+12-15 21:12:35.905  1040  9489 D StreamHalAidl: [in|ioHandle:1422] ~StreamHalAidl
+12-15 21:12:35.906   975  3787 I ASvc::StreamCommonImpl: close (primary-capture) : closing primary-capture, on 400454
+12-15 21:12:35.906   975 26392 I ASvc::CommandWorker: cw-primary-capture: exit command form HAL
+12-15 21:12:35.906   975 26392 I AUtl::Worker: Loop: cw-primary-capture thread exit
+12-15 21:12:35.906   975 26391 I AUtl::Worker: Loop: pw-primary-capture thread exit
+12-15 21:12:35.908  1460  1522 W WindowManager: lockNow pending, ignore updating lockscreen timeout
+12-15 21:12:35.916  1460  1522 W WindowManager: lockNow pending, ignore updating lockscreen timeout
+12-15 21:12:35.917  1253 26476 D AidlBufferPool: bufferpool2 0x900bdfba4614268 : 1(6144 size) total buffers - 1(6144 size) used buffers - 0/1 (recycle/alloc) - 0/0 (fetch/transfer)
+12-15 21:12:35.920  1016 26455 I ExynosC2HevcEncComponent: [doQueue] input detects EOS flag !!
+12-15 21:12:35.920 25554 25642 D AidlBufferPool: bufferpool2 0xce3c34c45be8 : 0(0 size) total buffers - 0(0 size) used buffers - 0/0 (recycle/alloc) - 0/0 (fetch/transfer)
+12-15 21:12:35.920 25554 25642 D AidlBufferPool: bufferpool2 0xce3c34c134d8 : 4(153600 size) total buffers - 3(115200 size) used buffers - 0/5 (recycle/alloc) - 0/0 (fetch/transfer)
+12-15 21:12:35.920  2185  3014 V WindowManagerShell: onTransitionReady(transaction=6270652675895)
+12-15 21:12:35.921  1253  2310 D AidlBufferPool: Destruction - bufferpool2 0x300bdfba4613368 cached: 0/0M, 0/0% in use; allocs: 3, 0% recycled; transfers: 2, 0% unfetched
+12-15 21:12:35.921  1253 26476 W mediaswcodec: AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. This might not be intended. AIBinder_DeathRecipient_setOnUnlinked should be called first.
+12-15 21:12:35.922  2185  2422 V WindowManagerShell: onTransitionReady (#6385) android.os.BinderProxy@e332ba3: {id=6385 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+12-15 21:12:35.922  2185  2422 V WindowManagerShell:         {m=OPEN f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{188461031 u10 com.google.android.apps.photos/.pager.HostPhotoPagerActivity t1000012})/@0x5b63cd5 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2424) epz=Point(1080, 2424) d=-1->0 r=-1->0:-1 activity=ActivityTransitionInfo { component = ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.pager.HostPhotoPagerActivity}, taskId = 1000012, appCompatTransitionInfo = null } opt={t=CUSTOM enterResId=0 changeResId=0 exitResId=0 mUserId=10}}
+12-15 21:12:35.922  2185  2422 V WindowManagerShell:     ]}
+12-15 21:12:35.922  2185  2422 V WindowManagerShell: Playing animation for (#6385) android.os.BinderProxy@e332ba3@0
+12-15 21:12:35.922  2185  2422 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+12-15 21:12:35.922  2185  2422 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=6385 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{188461031 u10 com.google.android.apps.photos/.pager.HostPhotoPagerActivity t1000012})/@0x5b63cd5 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2424) epz=Point(1080, 2424) d=-1->0 r=-1->0:-1 activity=ActivityTransitionInfo { component = ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.pager.HostPhotoPagerActivity}, taskId = 1000012, appCompatTransitionInfo = null } opt={t=CUSTOM enterResId=0 changeResId=0 exitResId=0 mUserId=10}}]}
+12-15 21:12:35.922  2185  2422 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null customAnim=true windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@180d240, appThread = android.app.IApplicationThread$Stub$Proxy@1693579, debugName = QuickstepLaunchHome }}
+12-15 21:12:35.922  2185  2422 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null customAnim=true windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@3699a19, appThread = android.app.IApplicationThread$Stub$Proxy@9406ade, debugName = QuickstepLaunchHome }}
+12-15 21:12:35.922  2185  2422 V WindowManagerShell:  Delegate animation for (#6385) to null
+12-15 21:12:35.922  2185  2422 V WindowManagerShell: start default transition animation, info = {id=6385 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{188461031 u10 com.google.android.apps.photos/.pager.HostPhotoPagerActivity t1000012})/@0x5b63cd5 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2424) epz=Point(1080, 2424) d=-1->0 r=-1->0:-1 activity=ActivityTransitionInfo { component = ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.pager.HostPhotoPagerActivity}, taskId = 1000012, appCompatTransitionInfo = null } opt={t=CUSTOM enterResId=0 changeResId=0 exitResId=0 mUserId=10}}]}
+12-15 21:12:35.923  2185  2422 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#6385) android.os.BinderProxy@e332ba3@0
+12-15 21:12:35.924  1460  1518 I ActivityTaskManager: Displayed com.google.android.apps.photos/.pager.HostPhotoPagerActivity for user 10: +134ms
+12-15 21:12:35.924  1460  1518 V WindowManager: Sent Transition (#6385) createdAt=12-15 21:12:35.792 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=10 taskId=1000012 effectiveUid=1010260 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.google.android.GoogleCamera cmp=com.google.android.GoogleCamera/com.android.camera.CameraLauncher } baseActivity=ComponentInfo{com.google.android.GoogleCamera/com.google.android.apps.camera.activity.main.CameraActivity} topActivity=ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.pager.HostPhotoPagerActivity} origActivity=ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraLauncher} realActivity=ComponentInfo{com.google.android.GoogleCamera/com.google.android.apps.camera.activity.main.CameraActivity} numActivities=2 lastActiveTime=724012523 supportsMultiWindow=false resizeMode=0 isResizeable=false minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{5f88e27 Task{e16f64f #1000012 type=standard I=com.google.android.GoogleCamera/com.android.camera.CameraLauncher nonResizable}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{3ed7db com.google.android.apps.photos.pager.HostPhotoPagerActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(276, 716 - 804, 1796) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityAppBounds=Rect(0, 0 - 1080, 2424) isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactiveundefined} topNonResizableActivityAspectRatio=-1.0} topActivityMainWindowFrame=null isAppBubble=false}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 6385 }
+12-15 21:12:35.924  1460  1518 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+12-15 21:12:35.925  1460  1518 V WindowManager:     info={id=6385 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+12-15 21:12:35.925  1460  1518 V WindowManager:         {m=OPEN f=TRANSLUCENT|FILLS_TASK leash=Surface(name=ActivityRecord{188461031 u10 com.google.android.apps.photos/.pager.HostPhotoPagerActivity t1000012})/@0x9d4a98c sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 1080, 2424) epz=Point(1080, 2424) d=-1->0 r=-1->0:-1 activity=ActivityTransitionInfo { component = ComponentInfo{com.google.android.apps.photos/com.google.android.apps.photos.pager.HostPhotoPagerActivity}, taskId = 1000012, appCompatTransitionInfo = null } opt={t=CUSTOM enterResId=0 changeResId=0 exitResId=0 mUserId=10}}
+12-15 21:12:35.925  1460  1518 V WindowManager:     ]}
+12-15 21:12:35.925  5326  5562 D MediaProvider: Open with FUSE. FilePath: /storage/emulated/10/DCIM/Camera/PXL_20251216_030409204.MP.jpg. Uid: 1010268. Media Capabilities Uid: 0. ShouldRedact: false. ShouldTranscode: false
+12-15 21:12:35.927   978  1415 I Lyric   : zuma_fc_driver.cc:126: [FEIRQ] FC bayer context 3, event 2305843009213694054, name: IspFe.fc_bayer.Context3FcLateConfig, count: 1, timestamp: 724012649209562
+12-15 21:12:35.927   978  1415 I Lyric   : zuma_fc_driver.cc:142: [FEIRQ] FC pdaf context 0, event 2305843009213694112, name: IspFe.fc_pdaf.Context0PdafLateConfig, count: 1, timestamp: 724012649266040
+12-15 21:12:35.927   978  1414 I Lyric   : fe_programming_async_event_handler.cc:113: [FEIRQ] Received event IspFe.fe_programming.Context3FcBayerLateConfigSyncSuccess. Count: 1. Timestamp: 724012649241503 ns.
+12-15 21:12:35.927   978  1415 I Lyric   : zuma_csis_core_driver.cc:260: [FEIRQ] CSIS Core context 0: event IspFe.csis_core_pd_err.LogicalChannel0LateConfigError #1, category: 16, count: 1, timestamp: 724012649328417
+12-15 21:12:35.927   978  1414 I Lyric   : fe_programming_async_event_handler.cc:113: [FEIRQ] Received event IspFe.fe_programming.Context0FcPdafLateConfigSyncSuccess. Count: 1. Timestamp: 724012649287809 ns.
+12-15 21:12:35.927   978  1414 I Lyric   : fe_programming_async_event_handler.cc:113: [FEIRQ] Received event IspFe.fe_programming.LoCh0CsisCorePdLateConfigSyncSuccess. Count: 1. Timestamp: 724012649355192 ns.
+12-15 21:12:35.927   978  1415 I Lyric   : zuma_csis_core_driver.cc:260: [FEIRQ] CSIS Core context 0: event IspFe.csis_core_img_err.LogicalChannel0LateConfigError #1, category: 12, count: 1, timestamp: 724012649395231
+12-15 21:12:35.927   978  1414 I Lyric   : fe_programming_async_event_handler.cc:113: [FEIRQ] Received event IspFe.fe_programming.LoCh0CsisCoreImgLateConfigSyncSuccess. Count: 1. Timestamp: 724012649421150 ns.
+12-15 21:12:35.928  1460  1518 V WindowManager: Finish Transition (#6385): created at 12-15 21:12:35.792 collect-started=0.222ms request-sent=9.857ms started=11.274ms ready=25.96ms sent=119.047ms commit=15.836ms finished=134.786ms
+12-15 21:12:35.930  1253  2220 D AidlBufferPoolAcc: evictor expired: 1, evicted: 0
+12-15 21:12:35.930  2185  2422 V WindowManagerShell: Track 0 became idle
+12-15 21:12:35.930  2185  2422 V WindowManagerShell: All active transition animations finished
+12-15 21:12:35.931  2185  2422 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@3025094
+12-15 21:12:35.931  2185  2422 V WindowManagerShell: Track 0 became idle
+12-15 21:12:35.931  2185  2422 V WindowManagerShell: All active transition animations finished
+12-15 21:12:35.931  1460  1522 W WindowManager: lockNow pending, ignore updating lockscreen timeout
+12-15 21:12:35.932  1016 26470 D ExynosVideoEncoder: MFC_Encoder_Enqueue_Inbuf: EMPTY DATA
+12-15 21:12:35.933 25554 25781 D AidlBufferPoolAcc: evictor expired: 1, evicted: 0
+12-15 21:12:35.935  1016 26455 I ExynosC2HevcEncComponent: [onUpdateC2Work] got SYNC FRAME
+12-15 21:12:35.935  1016 26473 D AidlBufferPool: bufferpool2 0x300cb43007667e8 : 5(11665280 size) total buffers - 5(11665280 size) used buffers - 1/7 (recycle/alloc) - 0/0 (fetch/transfer)
+12-15 21:12:35.935  5326  5562 D MediaProvider: Open with FUSE. FilePath: /storage/emulated/10/DCIM/Camera/PXL_20251216_030409204.MP.jpg. Uid: 1010268. Media Capabilities Uid: 0. ShouldRedact: false. ShouldTranscode: false
+12-15 21:12:35.936  1016 26455 W samsung.hardware.media.c2@1.2-service: AIBinder_linkToDeath is being called with a non-null cookie and no onUnlink callback set. This might not be intended. AIBinder_DeathRecipient_setOnUnlinked should be called first.
+12-15 21:12:35.937 25554 26432 E CAM_jte : onEncoded(0) was received but we weren't expecting this timestamp
+12-15 21:12:35.941 25554 26452 D CCodecBuffers: [c2.exynos.hevc.encoder#844:1D-Output] received null buffer
+12-15 21:12:35.941 25554 26450 D CCodecBufferChannel: [c2.exynos.hevc.encoder#844] MediaCodec discarded an unknown buffer
+12-15 21:12:35.941 25554 26450 D CCodecBufferChannel: [c2.exynos.hevc.encoder#844] MediaCodec discarded an unknown buffer
+12-15 21:12:35.941 25554 26450 D CCodecBufferChannel: [c2.exynos.hevc.encoder#844] MediaCodec discarded an unknown buffer
+12-15 21:12:35.944 21348 21348 D ImeBackDispatcher: switch root view (mImeCallbacks.size=0)
+12-15 21:12:35.947  1460  1927 I ImeTracker: com.google.android.apps.photos:d0dfcf76: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+12-15 21:12:35.947 21348 21348 D InsetsController: hide(ime())
+12-15 21:12:35.947 21348 21348 I ImeTracker: com.google.android.apps.photos:d0dfcf76: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+12-15 21:12:35.947 25554 25554 D ImeBackDispatcher: Clear (mImeCallbacks.size=0)
+12-15 21:12:35.948 25554 25554 I ImeTracker: com.google.android.GoogleCamera:c03d433e: onRequestHide at ORIGIN_CLIENT reason HIDE_WINDOW_LOST_FOCUS fromUser false
+12-15 21:12:35.948 25554 25554 D InsetsController: hide(ime())
+12-15 21:12:35.948 25554 25554 I ImeTracker: com.google.android.GoogleCamera:c03d433e: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+12-15 21:12:35.948 25554 25554 D ImeBackDispatcher: switch root view (mImeCallbacks.size=0)
+12-15 21:12:35.950  1016 26455 D AidlBufferPool: bufferpool2 0x500cb430078f968 : 0(0 size) total buffers - 0(0 size) used buffers - 0/0 (recycle/alloc) - 0/0 (fetch/transfer)
+12-15 21:12:35.950  1016 26455 D AidlBufferPool: Destruction - bufferpool2 0x500cb430078f968 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+12-15 21:12:35.951  1460  5485 I ImeTracker: system_server:c9e1e18: onRequestHide at ORIGIN_SERVER reason IME_REQUESTED_CHANGED_LISTENER fromUser false
+12-15 21:12:35.951  1460  1521 I ImeTracker: system_server:c9e1e18: onCancelled at PHASE_SERVER_SHOULD_HIDE
+12-15 21:12:35.951  1460  1522 W WindowManager: lockNow pending, ignore updating lockscreen timeout
+12-15 21:12:35.954  1002  1618 D usf_sensor_hal: gyroscope: ConfigDirectReport: stop sampling, period = 0.
+12-15 21:12:35.956  1277  1277 D AOC     : A3:MSG: usf_sensor.cc, 1792: USF: Received stop sampling request for LSM6DSV Gyroscope (active:3).
+12-15 21:12:35.957  1016  4856 I ExynosC2HevcEncComponent: [release] component is released
+12-15 21:12:35.957  1016  4856 I libbinder.BpBinder: onLastStrongRef automatically unlinking death recipients: android.hardware.media.bufferpool2.IClientManager
+12-15 21:12:35.957 25554 26452 D AidlBufferPool: Destruction - bufferpool2 0xce3c34c45be8 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+12-15 21:12:35.958  1016  4856 I ECOSession: ECOSession destroyed with w: 1440, h: 1080, isCameraRecording: 1
+12-15 21:12:35.960  1277  1277 D AOC     : A3:MSG: controller.cc, 275: CNTRL: cmd ID: 0x00d4, tag: 0x8c [cntr = 352090]
+12-15 21:12:35.961  1277  1277 D AOC     : A3:MSG: controller.cc, 919: CNTRL: ipc: control, cmd ID: 0x00d4, tag: 0x8c, rc: 0
+12-15 21:12:35.968  5326  5562 D MediaProvider: Open with FUSE. FilePath: /storage/emulated/10/DCIM/Camera/PXL_20251216_030409204.MP.jpg. Uid: 1010268. Media Capabilities Uid: 0. ShouldRedact: false. ShouldTranscode: false
+12-15 21:12:35.972  5326  5562 D MediaProvider: Open with FUSE. FilePath: /storage/emulated/10/DCIM/Camera/PXL_20251216_030409204.MP.jpg. Uid: 1010268. Media Capabilities Uid: 0. ShouldRedact: false. ShouldTranscode: false
+12-15 21:12:36.029  1460  4399 W WindowManager: lockNow pending, ignore updating lockscreen timeout
+12-15 21:12:36.031 21348 21348 W BitmapDrawable: BitmapDrawable created with null Bitmap
+12-15 21:12:36.031 21348 21348 W BitmapDrawable: BitmapDrawable created with null Bitmap
+12-15 21:12:36.048  1460  1576 V DisplayPowerController[0]: Brightness [0.032768495] reason changing to: 'automatic [ hdr ]', previous reason: 'automatic'.
+12-15 21:12:36.048  1460  1576 I DisplayPowerController[0]: BrightnessEvent: brt=0.032768495(54.0%)(hdr=0.16851452), nits=60.569065(hdr=302.83618), lux=45.533142, reason=automatic [ hdr ], strat=AutomaticBrightnessStrategy, state=ON, stateReason=KEY, policy=BRIGHT, flags=, initBrt=0.032768495, rcmdBrt=0.032768495, preBrt=NaN, preLux=NaN, lastReadLux=44.37563, wasShortTermModelActive=false, autoBrightness=true (default), unclampedBrt=0.032768495, hbmMax=0.33444074, hbmMode=hdr, thrmMax=1.0, rbcStrength=35, powerFactor=1.0, physDisp=Built-in Screen(local:4619827612623940864), logicalId=0, slowChange=false, rampSpeed=0.7047244
+12-15 21:12:36.052  2462  3325 I PixelDisplayManager: onDisplayChanged(Built-in Screen, 0, local:4619827612623940864): screenOn=true, hbmMode=2, br=0.16851452, product=DeviceProductInfo{name=TG4C-40B-00, manufacturerPnpId=GGL, productId=0, modelYear=null, manufactureDate=ManufactureDate{week=1, year=1990}, connectionToSinkType=1}
+12-15 21:12:36.078   646 24620 I hwc-display: path=drm, id=0, level=1162, nits=64.046677, brightness=0.034701, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.078   646 24620 I hwc-display: path=drm, id=0, level=1162, nits=64.046677, brightness=0.034701, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.094   646 24620 I hwc-display: path=drm, id=0, level=1212, nits=68.655518, brightness=0.037278, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.094   646 24620 I hwc-display: path=drm, id=0, level=1212, nits=68.655518, brightness=0.037278, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.111   646   717 I hwc-display: path=drm, id=0, level=1264, nits=73.431557, brightness=0.039949, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.120  1277  1277 D AOC     : A3:MSG: tmd3733_device.cc, 3249: USF: TMD3733: dbv:1264 luma:0 leak:0.00/0.00 rr:60 te2:0 status:1 op_hz:0[1]
+12-15 21:12:36.122  1277  1277 D AOC     : A3:MSG: tmd3733_device.cc, 3051: USF: TMD3733: [ALS]sync_delay_adjustment: 0
+12-15 21:12:36.124  1277  1277 D AOC     : A3:MSG: tmd3733_device.cc, 3186: USF: TMD3733: vsync_delay_usec: 13000
+12-15 21:12:36.127   646 24620 I hwc-display: path=drm, id=0, level=1317, nits=78.372665, brightness=0.042713, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.144   646 24620 I hwc-display: path=drm, id=0, level=1367, nits=83.479164, brightness=0.045568, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.149  1460  4399 W WindowManager: lockNow pending, ignore updating lockscreen timeout
+12-15 21:12:36.161   646 24620 I hwc-display: path=drm, id=0, level=1410, nits=88.751495, brightness=0.048517, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.178   646   717 I hwc-display: path=drm, id=0, level=1455, nits=94.195946, brightness=0.051562, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.200   646 24620 I hwc-display: path=drm, id=0, level=1501, nits=99.795898, brightness=0.054694, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.201 21348 21348 D VRI[HostPhotoPagerActivity]: changeCanvasOpacity: opaque=true
+12-15 21:12:36.202  2185  2422 V WindowManagerShell: Transition requested (#6386): android.os.BinderProxy@98a9678 TransitionRequestInfo { type = TO_BACK, triggerTask = null, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 6386 }
+12-15 21:12:36.203   642   709 I libbinder.BpBinder: onLastStrongRef automatically unlinking death recipients: 
+12-15 21:12:36.205  1460  1522 W WindowManager: lockNow pending, ignore updating lockscreen timeout
+12-15 21:12:36.209  1460  1518 V WindowManager: Sent Transition (#6386) createdAt=12-15 21:12:36.200 via request=TransitionRequestInfo { type = TO_BACK, triggerTask = null, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 6386 }
+12-15 21:12:36.209  1460  1518 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+12-15 21:12:36.209  1460  1518 V WindowManager:     info={id=6386 t=TO_BACK f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+12-15 21:12:36.209  1460  1518 V WindowManager:         {m=TO_BACK f=FILLS_TASK leash=Surface(name=ActivityRecord{12081326 u10 com.google.android.GoogleCamera/com.android.camera.CameraLauncher t1000012})/@0x6214d34 sb=Rect(0, 0 - 1080, 2424) eb=Rect(0, 0 - 1080, 2424) epz=Point(1080, 2424) d=0 activity=ActivityTransitionInfo { component = ComponentInfo{com.google.android.GoogleCamera/com.google.android.apps.camera.activity.main.CameraActivity}, taskId = 1000012, appCompatTransitionInfo = null } opt={t=SCENE_TRANSITION mUserId=10}}
+12-15 21:12:36.209  1460  1518 V WindowManager:     ]}
+12-15 21:12:36.212  2185  3014 V WindowManagerShell: onTransitionReady(transaction=6270652675910)
+12-15 21:12:36.213  2185  2422 V WindowManagerShell: onTransitionReady (#6386) android.os.BinderProxy@98a9678: {id=6386 t=TO_BACK f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+12-15 21:12:36.213  2185  2422 V WindowManagerShell:         {m=TO_BACK f=FILLS_TASK leash=Surface(name=ActivityRecord{12081326 u10 com.google.android.GoogleCamera/com.android.camera.CameraLauncher t1000012})/@0x2aad151 sb=Rect(0, 0 - 1080, 2424) eb=Rect(0, 0 - 1080, 2424) epz=Point(1080, 2424) d=0 activity=ActivityTransitionInfo { component = ComponentInfo{com.google.android.GoogleCamera/com.google.android.apps.camera.activity.main.CameraActivity}, taskId = 1000012, appCompatTransitionInfo = null } opt={t=SCENE_TRANSITION mUserId=10}}
+12-15 21:12:36.213  2185  2422 V WindowManagerShell:     ]}
+12-15 21:12:36.213  2185  2422 V WindowManagerShell: Playing animation for (#6386) android.os.BinderProxy@98a9678@0
+12-15 21:12:36.213  2185  2422 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+12-15 21:12:36.213  2185  2422 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=6386 t=TO_BACK f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=TO_BACK f=FILLS_TASK leash=Surface(name=ActivityRecord{12081326 u10 com.google.android.GoogleCamera/com.android.camera.CameraLauncher t1000012})/@0x2aad151 sb=Rect(0, 0 - 1080, 2424) eb=Rect(0, 0 - 1080, 2424) epz=Point(1080, 2424) d=0 activity=ActivityTransitionInfo { component = ComponentInfo{com.google.android.GoogleCamera/com.google.android.apps.camera.activity.main.CameraActivity}, taskId = 1000012, appCompatTransitionInfo = null } opt={t=SCENE_TRANSITION mUserId=10}}]}
+12-15 21:12:36.214  2185  2422 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null customAnim=true windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@180d240, appThread = android.app.IApplicationThread$Stub$Proxy@1693579, debugName = QuickstepLaunchHome }}
+12-15 21:12:36.214  2185  2422 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null customAnim=true windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@3699a19, appThread = android.app.IApplicationThread$Stub$Proxy@9406ade, debugName = QuickstepLaunchHome }}
+12-15 21:12:36.214  2185  2422 V WindowManagerShell:  Delegate animation for (#6386) to null
+12-15 21:12:36.214  2185  2422 V WindowManagerShell: start default transition animation, info = {id=6386 t=TO_BACK f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=TO_BACK f=FILLS_TASK leash=Surface(name=ActivityRecord{12081326 u10 com.google.android.GoogleCamera/com.android.camera.CameraLauncher t1000012})/@0x2aad151 sb=Rect(0, 0 - 1080, 2424) eb=Rect(0, 0 - 1080, 2424) epz=Point(1080, 2424) d=0 activity=ActivityTransitionInfo { component = ComponentInfo{com.google.android.GoogleCamera/com.google.android.apps.camera.activity.main.CameraActivity}, taskId = 1000012, appCompatTransitionInfo = null } opt={t=SCENE_TRANSITION mUserId=10}}]}
+12-15 21:12:36.215  2185  2422 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#6386) android.os.BinderProxy@98a9678@0
+12-15 21:12:36.217   646 24620 I hwc-display: path=drm, id=0, level=1565, nits=107.706619, brightness=0.059118, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.224  1460  1518 V WindowManager: Finish Transition (#6386): created at 12-15 21:12:36.200 collect-started=0.067ms request-sent=1.235ms started=2.214ms ready=2.202ms sent=7.412ms commit=9.488ms finished=22.952ms
+12-15 21:12:36.224 25554 25554 D VRI[CameraLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+12-15 21:12:36.224  2185  2422 V WindowManagerShell: Track 0 became idle
+12-15 21:12:36.224  2185  2422 V WindowManagerShell: All active transition animations finished
+12-15 21:12:36.224  2185  2422 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@3025094
+12-15 21:12:36.224  2185  2422 V WindowManagerShell: Track 0 became idle
+12-15 21:12:36.224  2185  2422 V WindowManagerShell: All active transition animations finished
+12-15 21:12:36.226  2381  3812 D ForegroundUtils: onUidImportance: Foreground UID status
+12-15 21:12:36.226  2381  3812 D ForegroundUtils: onUidImportance: UID: 1068 is in foreground: true
+12-15 21:12:36.226  2381  3812 D ForegroundUtils: onUidImportance: UID: 10114 is in foreground: true
+12-15 21:12:36.226  2381  3812 D ForegroundUtils: onUidImportance: UID: 10141 is in foreground: true
+12-15 21:12:36.226  1460  1519 V OneTimePermissionUserManager: Updating state for com.google.android.GoogleCamera (1010260). device ID=0, state=1
+12-15 21:12:36.226  2381  3812 D ForegroundUtils: onUidImportance: UID: 10147 is in foreground: false
+12-15 21:12:36.226  2381  3812 D ForegroundUtils: onUidImportance: UID: 10149 is in foreground: true
+12-15 21:12:36.227  2381  3812 D ForegroundUtils: onUidImportance: UID: 10151 is in foreground: true
+12-15 21:12:36.227  2381  3812 D ForegroundUtils: onUidImportance: UID: 10157 is in foreground: true
+12-15 21:12:36.227  2381  3812 D ForegroundUtils: onUidImportance: UID: 10158 is in foreground: false
+12-15 21:12:36.227  2381  3812 D ForegroundUtils: onUidImportance: UID: 10160 is in foreground: true
+12-15 21:12:36.227  2381  3812 D ForegroundUtils: onUidImportance: UID: 10241 is in foreground: false
+12-15 21:12:36.227  2381  3812 D ForegroundUtils: onUidImportance: UID: 10258 is in foreground: false
+12-15 21:12:36.227  2381  3812 D ForegroundUtils: onUidImportance: UID: 1001000 is in foreground: false
+12-15 21:12:36.227  2381  3812 D ForegroundUtils: onUidImportance: UID: 1001002 is in foreground: true
+12-15 21:12:36.227  2381  3812 D ForegroundUtils: onUidImportance: UID: 1010147 is in foreground: false
+12-15 21:12:36.227  2381  3812 D ForegroundUtils: onUidImportance: UID: 1010157 is in foreground: true
+12-15 21:12:36.227  2381  3812 D ForegroundUtils: onUidImportance: UID: 1010160 is in foreground: false
+12-15 21:12:36.227  2381  3812 D ForegroundUtils: onUidImportance: UID: 1010258 is in foreground: true
+12-15 21:12:36.227  2381  3812 D ForegroundUtils: onUidImportance: UID: 1010260 is in foreground: false
+12-15 21:12:36.227  2381  3812 D ForegroundUtils: onUidImportance: UID: 1010268 is in foreground: true
+12-15 21:12:36.228  1460  1518 D HintManagerService: Sent cleanup message for uid 1010260
+12-15 21:12:36.234   646 24620 I hwc-display: path=drm, id=0, level=1614, nits=113.696655, brightness=0.062468, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.242 25554 25583 D HWUI    : endAllActiveAnimators on 0xce3ba4bf2880 (RippleDrawable) with handle 0xce3c84cc8580
+12-15 21:12:36.246  1460  5485 W WindowManager: lockNow pending, ignore updating lockscreen timeout
+12-15 21:12:36.250   646   717 I hwc-display: path=drm, id=0, level=1664, nits=119.852577, brightness=0.065911, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.255  1277  1277 D AOC     : A3:MSG: tmd3733_device.cc, 3249: USF: TMD3733: dbv:1664 luma:0 leak:-.00/-.00 rr:60 te2:0 status:1 op_hz:0[0]
+12-15 21:12:36.267   646 24620 I hwc-display: path=drm, id=0, level=1716, nits=126.175514, brightness=0.069447, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.278  1002  1618 D usf_sensor_hal: accelerometer: Enter Batch. Period = 200000000, latency = 2000000000.
+12-15 21:12:36.280  1277  1277 D AOC     : A3:MSG: usf_sensor.cc, 2402: USF: Received reconfig sampling request for LSM6DSV Accelerometer.
+12-15 21:12:36.281  1002  1618 D usf_sensor_hal: IMU temperature: Enter Batch. Period = 533334000, latency = 2000000000.
+12-15 21:12:36.282  1277  1277 D AOC     : A3:MSG: usf_sensor.cc, 2402: USF: Received reconfig sampling request for LSM6DSV Temperature.
+12-15 21:12:36.283  1002  1673 I sensor-suez: Vendor atom [id = 100243] reported.
+12-15 21:12:36.284   646 24620 I hwc-display: path=drm, id=0, level=1769, nits=132.659943, brightness=0.073074, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.288 25554 25554 W CAM_fnn : Duplicate call to stopModule; skipping stop.
+12-15 21:12:36.300   646 24620 I hwc-display: path=drm, id=0, level=1823, nits=139.307999, brightness=0.076792, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.304  1460  2147 D BackgroundInstallControlService: Package event received: 0
+12-15 21:12:36.317   646   717 I hwc-display: path=drm, id=0, level=1879, nits=146.119934, brightness=0.080601, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.323  1277  1277 D AOC     : A3:MSG: tmd3733_device.cc, 3249: USF: TMD3733: dbv:1879 luma:0 leak:0.02/0.01 rr:60 te2:0 status:1 op_hz:0[0]
+12-15 21:12:36.334   646 24620 I hwc-display: path=drm, id=0, level=1935, nits=153.114029, brightness=0.084513, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.350   646 24620 I hwc-display: path=drm, id=0, level=1977, nits=160.504974, brightness=0.088646, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.367   646 24620 I hwc-display: path=drm, id=0, level=2021, nits=168.397507, brightness=0.093060, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.384   646   717 I hwc-display: path=drm, id=0, level=2068, nits=176.829773, brightness=0.097776, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.387  1460  2147 D BackgroundInstallControlService: Package event received: 0
+12-15 21:12:36.388  1277  1277 D AOC     : A3:MSG: tmd3733_device.cc, 3249: USF: TMD3733: dbv:2068 luma:0 leak:0.07/0.04 rr:60 te2:0 status:1 op_hz:0[0]
+12-15 21:12:36.400   646 24620 I hwc-display: path=drm, id=0, level=2119, nits=185.835739, brightness=0.102813, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.405 21348 21961 W JobInfo : Requested important-while-foreground flag for job555000026 is ignored and takes no effect
+12-15 21:12:36.417   646 24620 I hwc-display: path=drm, id=0, level=2162, nits=195.449753, brightness=0.108190, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.421 12694 26517 I DiscoveryManager: Discovery state (DiscoveryState{filterCriteria=[96084372], categoryToCriteria={com.google.android.gms.cast.CATEGORY_CAST/96084372///ALLOW_IPV6=[96084372]}, activeScan=false, discoveryRequestSupportsDynamicSession=false})
+12-15 21:12:36.422 12694 26517 W DatabaseProcessor: processLocalDevices: failed to get the network info with non-null networkId.
+12-15 21:12:36.422 12694 12694 I CastMediaRouteProvider: Published 0 routes
+12-15 21:12:36.430 21348 21961 W JobInfo : Requested important-while-foreground flag for job555000027 is ignored and takes no effect
+12-15 21:12:36.434   646 24620 I hwc-display: path=drm, id=0, level=2208, nits=205.718842, brightness=0.113933, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.444 21348 21961 W JobInfo : Requested important-while-foreground flag for job555000028 is ignored and takes no effect
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: No updatable connectivity module on device.
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: android.content.pm.PackageManager$NameNotFoundException
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at com.android.internal.gmscompat.sysservice.GmcPackageManager.makePseudoDisabledPackageInfoOrThrow(GmcPackageManager.java:437)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at com.android.internal.gmscompat.sysservice.GmcPackageManager.getPackageInfoAsUser(GmcPackageManager.java:266)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:243)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at android.app.ApplicationPackageManager.getPackageInfo(ApplicationPackageManager.java:237)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at cvis.b(:com.google.android.gms@254730035@25.47.30 (260400-833691957):64)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at bbmi.b(:com.google.android.gms@254730035@25.47.30 (260400-833691957):9)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at bbmg.e(:com.google.android.gms@254730035@25.47.30 (260400-833691957):1)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at bboy.s(:com.google.android.gms@254730035@25.47.30 (260400-833691957):10)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at bboy.t(:com.google.android.gms@254730035@25.47.30 (260400-833691957):22)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at bboy.e(:com.google.android.gms@254730035@25.47.30 (260400-833691957):30)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at bboy.f(:com.google.android.gms@254730035@25.47.30 (260400-833691957):82)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at bboy.onConnected(:com.google.android.gms@254730035@25.47.30 (260400-833691957):15)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at bcjs.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):3)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at bciv.b(:com.google.android.gms@254730035@25.47.30 (260400-833691957):89)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at bcim.c(:com.google.android.gms@254730035@25.47.30 (260400-833691957):7)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at bcip.handleMessage(:com.google.android.gms@254730035@25.47.30 (260400-833691957):261)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at cpny.ms(:com.google.android.gms@254730035@25.47.30 (260400-833691957):1)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at cpny.dispatchMessage(:com.google.android.gms@254730035@25.47.30 (260400-833691957):140)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at android.os.Looper.dispatchMessage(Looper.java:315)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at android.os.Looper.loopOnce(Looper.java:251)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at android.os.Looper.loop(Looper.java:349)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: 	at android.os.HandlerThread.run(HandlerThread.java:100)
+12-15 21:12:36.447 12694 12829 I MdnsServiceBrowser: (REDACTED) registering %s
+12-15 21:12:36.448 12694 26517 I AOSP-MdnsDiscoveryManag: (REDACTED) %s
+12-15 21:12:36.448 12694 21845 I AOSP-MdnsDiscoveryManag: (REDACTED) %s
+12-15 21:12:36.448 12694 26517 I AOSP-MdnsDiscoveryManag: (REDACTED) %s
+12-15 21:12:36.450  1460  2835 I WifiService: acquireMulticastLock uid=1010258 lockTag=mdns-android
+12-15 21:12:36.450   646   717 I hwc-display: path=drm, id=0, level=2257, nits=216.687195, brightness=0.120067, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.454 12694 21845 I AOSP-MdnsDiscoveryManag: (REDACTED) %s
+12-15 21:12:36.454 12694 21845 I AOSP-MdnsDiscoveryManag: (REDACTED) %s
+12-15 21:12:36.454 12694 21845 I AOSP-MdnsDiscoveryManag: (REDACTED) %s
+12-15 21:12:36.455 12694 26521 I AOSP-MdnsDiscoveryManag: (REDACTED) %s
+12-15 21:12:36.455 12694 26521 I AOSP-MdnsDiscoveryManag: (REDACTED) %s
+12-15 21:12:36.455  1277  1277 D AOC     : A3:MSG: tmd3733_device.cc, 3249: USF: TMD3733: dbv:2257 luma:0 leak:0.15/0.09 rr:60 te2:0 status:1 op_hz:0[0]
+12-15 21:12:36.455  2353 25131 D IpClient.wlan0: set max DTIM multiplier to 1
+12-15 21:12:36.455 12694 26521 I AOSP-MdnsDiscoveryManag: (REDACTED) %s
+12-15 21:12:36.455 12694 26521 I AOSP-MdnsDiscoveryManag: (REDACTED) %s
+12-15 21:12:36.456 12694 26519 I AOSP-MdnsDiscoveryManag: (REDACTED) %s
+12-15 21:12:36.456 12694 26520 W AOSP-MdnsDiscoveryManag: Error while decoding multicast packet (55): 1 [CONTEXT service_id=168 ]
+12-15 21:12:36.456 12694 26519 I AOSP-MdnsDiscoveryManag: (REDACTED) %s
+12-15 21:12:36.456 12694 26520 W AOSP-MdnsDiscoveryManag: Error while decoding multicast packet (56): 1 [CONTEXT service_id=168 ]
+12-15 21:12:36.457 12694 26519 I AOSP-MdnsDiscoveryManag: (REDACTED) %s
+12-15 21:12:36.457 12694 13080 I AOSP-MdnsDiscoveryManag: (REDACTED) %s
+12-15 21:12:36.457  1037  1073 E WifiHAL : Setting APF program, halHandle = 0x500c26646017c30
+12-15 21:12:36.457  1037  1073 E WifiHAL : Set apf filter for iface = wlan0
+12-15 21:12:36.457  1037  1073 I WifiHAL : createRequest: APF set program request
+12-15 21:12:36.457  1037  1073 I WifiHAL : mProgramLen : 1584
+12-15 21:12:36.457  1460  2101 D ConnectivityService: NetReassign [no changes] [c 3] [a 3] [i 2]
+12-15 21:12:36.459 12694 26520 W AOSP-MdnsDiscoveryManag: Error while decoding multicast packet (57): 1 [CONTEXT service_id=168 ]
+12-15 21:12:36.459 12694 26519 I AOSP-MdnsDiscoveryManag: (REDACTED) %s
+12-15 21:12:36.459 12694 26520 W AOSP-MdnsDiscoveryManag: Error while decoding multicast packet (58): 1 [CONTEXT service_id=168 ]
+12-15 21:12:36.462 21348 21961 W JobInfo : Requested important-while-foreground flag for job555000029 is ignored and takes no effect
+12-15 21:12:36.463 12694 21845 I AOSP-MdnsDiscoveryManag: (REDACTED) %s
+12-15 21:12:36.467   646 24620 I hwc-display: path=drm, id=0, level=2302, nits=228.405960, brightness=0.126621, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.484   646 24620 I hwc-display: path=drm, id=0, level=2347, nits=240.919983, brightness=0.133620, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.500   646 24620 I hwc-display: path=drm, id=0, level=2395, nits=254.281830, brightness=0.141093, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.516  1037  1073 D WifiHAL : Setting DTIM config , halHandle = 0x500c26646017c30 Multiplier = 1
+12-15 21:12:36.516  1037  1073 I WifiHAL : Successfully configured dtim multiplier 1
+12-15 21:12:36.516  1037  1073 E WifiHAL : Setting APF program, halHandle = 0x500c26646017c30
+12-15 21:12:36.516  1037  1073 E WifiHAL : Set apf filter for iface = wlan0
+12-15 21:12:36.516  1037  1073 I WifiHAL : createRequest: APF set program request
+12-15 21:12:36.516  1037  1073 I WifiHAL : mProgramLen : 1863
+12-15 21:12:36.517   646   717 I hwc-display: path=drm, id=0, level=2444, nits=268.550903, brightness=0.149073, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.520  1460  2835 W JobScheduler: Job didn't exist in JobStore: 902c2f9 {androidx.work.systemjobscheduler} #u10a268/555000027 #ModelDownloadWorker#@androidx.work.systemjobscheduler@com.google.android.apps.photos/androidx.work.impl.background.systemjob.SystemJobService
+12-15 21:12:36.521  1277  1277 D AOC     : A3:MSG: tmd3733_device.cc, 3249: USF: TMD3733: dbv:2444 luma:5 leak:0.47/0.28 rr:60 te2:0 status:1 op_hz:0[0]
+12-15 21:12:36.534   646 24620 I hwc-display: path=drm, id=0, level=2488, nits=283.800873, brightness=0.157601, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.550   646 24620 I hwc-display: path=drm, id=0, level=2535, nits=300.074677, brightness=0.166703, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.567   646 24620 I hwc-display: path=drm, id=0, level=2544, nits=303.313995, brightness=0.168515, DimmingOn=0, Hbm=0, LhbmOn=0, OpRate=0
+12-15 21:12:36.588  1277  1277 D AOC     : A3:MSG: tmd3733_device.cc, 3249: USF: TMD3733: dbv:2544 luma:5 leak:0.54/0.32 rr:60 te2:0 status:1 op_hz:0[0]
+12-15 21:12:36.719  1273  1273 W TracingMuxer: type=1400 audit(0.0:427391): avc:  denied  { write } for  name="traced_producer" dev="tmpfs" ino=1768 scontext=u:r:gxp_logging:s0 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0
+12-15 21:12:36.782  5326  5562 D MediaProvider: Open with FUSE. FilePath: /storage/emulated/10/DCIM/Camera/PXL_20251216_030409204.MP.jpg. Uid: 1010268. Media Capabilities Uid: 0. ShouldRedact: false. ShouldTranscode: false
+12-15 21:12:36.802  5326  5562 D MediaProvider: Open with FUSE. FilePath: /storage/emulated/10/DCIM/Camera/PXL_20251216_030409204.MP.jpg. Uid: 1010268. Media Capabilities Uid: 0. ShouldRedact: false. ShouldTranscode: false
+12-15 21:12:36.812  1037  1073 I WifiHAL : Creating message to get link statistics; iface = 47
+12-15 21:12:36.842  1164  1233 D Camera2ClientBase: Camera 0: start to disconnect
+12-15 21:12:36.842  1164  1233 D Camera2ClientBase: Camera 0: serializationLock acquired
+12-15 21:12:36.842  1164  1233 D Camera2ClientBase: Camera 0: Shutting down
+12-15 21:12:36.842  1164  1233 D Camera2ClientBase: Camera 0: start to cacheDump
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 0 per_rate_size 32, data_rem_len 1152
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 1 per_rate_size 32, data_rem_len 1120
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 2 per_rate_size 32, data_rem_len 1088
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 3 per_rate_size 32, data_rem_len 1056
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 4 per_rate_size 32, data_rem_len 1024
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 5 per_rate_size 32, data_rem_len 992
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 6 per_rate_size 32, data_rem_len 960
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 7 per_rate_size 32, data_rem_len 928
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 8 per_rate_size 32, data_rem_len 896
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 9 per_rate_size 32, data_rem_len 864
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 10 per_rate_size 32, data_rem_len 832
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 11 per_rate_size 32, data_rem_len 800
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 12 per_rate_size 32, data_rem_len 768
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 13 per_rate_size 32, data_rem_len 736
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 14 per_rate_size 32, data_rem_len 704
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 15 per_rate_size 32, data_rem_len 672
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 16 per_rate_size 32, data_rem_len 640
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 17 per_rate_size 32, data_rem_len 608
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 18 per_rate_size 32, data_rem_len 576
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 19 per_rate_size 32, data_rem_len 544
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 20 per_rate_size 32, data_rem_len 512
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 21 per_rate_size 32, data_rem_len 480
+12-15 21:12:36.852  1037  1073 I WifiHAL : index: 22 per_rate_size 32, data_rem_len 448
+12-15 21:12:36.853  1037  1073 I WifiHAL : index: 23 per_rate_size 32, data_rem_len 416
+12-15 21:12:36.853  1037  1073 I WifiHAL : index: 24 per_rate_size 32, data_rem_len 384
+12-15 21:12:36.853  1037  1073 I WifiHAL : index: 25 per_rate_size 32, data_rem_len 352
+12-15 21:12:36.853  1037  1073 I WifiHAL : index: 26 per_rate_size 32, data_rem_len 320
+12-15 21:12:36.853  1037  1073 I WifiHAL : index: 27 per_rate_size 32, data_rem_len 288
+12-15 21:12:36.853  1037  1073 I WifiHAL : index: 28 per_rate_size 32, data_rem_len 256
+12-15 21:12:36.853  1037  1073 I WifiHAL : index: 29 per_rate_size 32, data_rem_len 224
+12-15 21:12:36.853  1037  1073 I WifiHAL : index: 30 per_rate_size 32, data_rem_len 192
+12-15 21:12:36.853  1037  1073 I WifiHAL : index: 31 per_rate_size 32, data_rem_len 160
+12-15 21:12:36.853  1037  1073 I WifiHAL : index: 32 per_rate_size 32, data_rem_len 128
+12-15 21:12:36.853  1037  1073 I WifiHAL : index: 33 per_rate_size 32, data_rem_len 96
+12-15 21:12:36.853  1037  1073 I WifiHAL : index: 34 per_rate_size 32, data_rem_len 64
+12-15 21:12:36.853  1037  1073 I WifiHAL : index: 35 per_rate_size 32, data_rem_len 32
+12-15 21:12:36.854  1037  1037 I WifiHAL : Getting cached scan results, iface handle = 0x500c26646017c30
+12-15 21:12:36.854  1037  1037 E WifiHAL : Creating message to get cached scan results
+12-15 21:12:36.859  1037  1037 I WifiHAL : In GetCachedScanResultsCommand::handleResponse
