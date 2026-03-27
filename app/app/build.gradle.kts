@@ -6,18 +6,22 @@ plugins {
 
 android {
     namespace = "com.google.android.apps.photos"
-    compileSdk {
-        version = release(36)
-    }
+    // Using 35 as it's the stable target for 2026/Pixel 10 era
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.google.android.apps.photos"
-        minSdk = 24
-        targetSdk = 36
+        minSdk = 26
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        // FIX FOR PIXEL 10 PRO (64-bit only)
+        ndk {
+            abiFilters.add("arm64-v8a")
+        }
     }
 
     buildTypes {
@@ -30,11 +34,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "17"
     }
     buildFeatures {
         compose = true
