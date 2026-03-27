@@ -5,12 +5,11 @@ plugins {
 }
 
 android {
-    // The namespace must match the 'package' line in your MainActivity.kt
-    namespace = "com.google.android.apps.photos"
+    // This MUST match the applicationId for the Pixel 10 Pro to allow the install
+    namespace = "com.logan.pixel.redirect" 
     compileSdk = 35
 
     defaultConfig {
-        // Unique ID to prevent the Pixel 10 Pro from blocking it as a "Fake Google App"
         applicationId = "com.logan.pixel.redirect"
         minSdk = 26
         targetSdk = 35
@@ -19,7 +18,6 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        // Required for Pixel 10 Pro and modern Tensor-based Pixels (64-bit only)
         ndk {
             abiFilters.add("arm64-v8a")
         }
@@ -28,7 +26,6 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
-            // Force the app to sign with the debug key so you don't need GitHub Secrets
             signingConfig = signingConfigs.getByName("debug")
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
@@ -55,7 +52,6 @@ android {
 }
 
 dependencies {
-    // Standard dependencies using hardcoded versions to avoid "libs" version catalog errors
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
     implementation("androidx.activity:activity-compose:1.8.2")
