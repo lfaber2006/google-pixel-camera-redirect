@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.android.apps.photos">
 
-    <application android:label="Redirect">
+    <application
+        android:label="Camera Redirect"
+        android:allowBackup="false"
+        android:hasCode="true">
+        
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
+            android:exported="true"
+            android:theme="@android:style/Theme.NoDisplay">
+            
+            <intent-filter android:priority="999">
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <intent-filter>
+            
+            <intent-filter android:priority="999">
                 <action android:name="com.android.camera.action.REVIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="image/*" />
@@ -17,5 +25,4 @@
             </intent-filter>
         </activity>
     </application>
-
 </manifest>
