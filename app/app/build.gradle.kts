@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.google.android.apps.photos"
+    namespace = "com.logan.pixel.redirect"
     compileSdk = 35
 
     defaultConfig {
