@@ -1,4 +1,4 @@
-package com.google.android.apps.photos
+package com.logan.pixel.redirect
 
 import android.app.Activity
 import android.content.Intent
