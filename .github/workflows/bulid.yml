@@ -1,4 +1,4 @@
-name: Build and Sign Android APK
+name: Build Android APK
 
 on:
   workflow_dispatch:
@@ -17,31 +17,15 @@ jobs:
           distribution: 'temurin'
           cache: gradle
 
-      - name: Accept Android SDK Licenses
-        run: yes | sdkmanager --licenses || true
-
       - name: Grant execute permission for gradlew
         run: chmod +x app/gradlew
 
-      - name: Build Debug APK
+      - name: Build APK
         working-directory: ./app
-        run: ./gradlew assembleDebug --stacktrace
+        run: ./gradlew assembleDebug
 
-      # This step signs the APK so the Pixel 10 Pro parser trusts the structure
-      - name: Sign APK
-        uses: r0adkll/sign-android-release@v1
-        id: sign_app
-        with:
-          releaseDirectory: app/app/build/outputs/apk/debug
-          signingKeyBase64: ${{ secrets.SIGNING_KEY }} # Optional: See note below
-          alias: ${{ secrets.ALIAS }}
-          keyStorePassword: ${{ secrets.KEY_STORE_PASSWORD }}
-          keyPassword: ${{ secrets.KEY_PASSWORD }}
-        env:
-          BUILD_TOOLS_VERSION: "35.0.0"
-
-      - name: Upload Signed APK
+      - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: pixel-camera-redirect-signed
-          path: ${{ steps.sign_app.outputs.signedReleaseFile }}
+          name: pixel-camera-redirect-final
+          path: app/app/build/outputs/apk/debug/*.apk
