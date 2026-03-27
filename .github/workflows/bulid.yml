@@ -21,15 +21,18 @@ jobs:
         run: yes | sdkmanager --licenses || true
 
       - name: Grant execute permission for gradlew
-        run: chmod +x gradlew
+        # We added 'app/' before gradlew to find it in the subfolder
+        run: chmod +x app/gradlew
 
       - name: Build Debug APK
-        # The --stacktrace and --info flags will tell us the EXACT error if it fails again
-        run: ./gradlew assembleDebug --stacktrace --info
-
+        # We set the 'working-directory' so it runs inside the app folder
+        working-directory: ./app
+        run: ./gradlew assembleDebug --stacktrace
+        
       - name: Upload APK
         if: success()
         uses: actions/upload-artifact@v4
         with:
           name: pixel-camera-redirect-apk
-          path: app/build/outputs/apk/debug/*.apk
+          # Path updated to find the file inside the app subfolder structure
+          path: app/app/build/outputs/apk/debug/*.apk
